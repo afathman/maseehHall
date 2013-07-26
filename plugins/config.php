@@ -4,7 +4,7 @@
  ---------------------------------------------------------------------- */
  
 // Enter your email address
-$your_email_address = 'your_email_address';
+$your_email_address = 'maseeh@mit.edu';
 
 
 /* Twitter Feed
@@ -34,5 +34,5 @@ $twitter_style_dates = true;
 // Date setting if $twitter_style_dates is false
 $date_format = 'F d, Y';
 
-// Twitter cache time (default is 1 hour)
-$twitter_cachetime = 60*60;
+// Twitter cache time (default is 1 hour) now set at 5 min
+$twitter_cachetime = 5*60;
