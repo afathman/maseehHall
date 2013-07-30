@@ -901,6 +901,7 @@ select, option {
 	.page-artist2 #page-header { background: #222 url(../placeholders/artist2-bg.jpg) center bottom no-repeat; }
 	.page-release #page-header { background: #000 url(../placeholders/release-01-bg.jpg) center bottom no-repeat; }
 	.page-contact #page-header { background: #222 url(../placeholders/contact-bg.jpg) center bottom no-repeat; }
+	.page-prospective #page-header { background: #222 url(../placeholders/prospective-bg.jpg) center top no-repeat; }
 
 	/* Slogan */
 	.slogan { 
