@@ -52,6 +52,8 @@
 	<!-- /Fancybox -->
 	<!-- custom scripts -->
 	<script src="js/custom.js"></script>
+	<!-- Countdown date updating -->
+	<script src="js/update_date.js"></script>
 </head>
 <body class="page-artists">
 <!--[if lte IE 7]>
@@ -131,11 +133,11 @@
 					<span class="stat-name">Floors</span>
 				</li>
 				<li>
-					<span class="stat-value">3</span>
+					<span class="stat-value"><update startyear="2011" format="%Y">3</update></span>
 					<span class="stat-name">years in service</span>
 				</li>
 				<li>
-					<span class="stat-value">113</span>
+					<span class="stat-value"><update startyear="1901" format="%Y">113</update></span>
 					<span class="stat-name">year old building</span>
 				</li>
 				<li>
@@ -291,5 +293,8 @@ document.write("- "+yr);
 	</section>
 </footer>
 <!-- /footer -->
+<script language="JavaScript">
+update_date();
+</script>
 </body>
 </html>
