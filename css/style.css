@@ -1573,7 +1573,7 @@ select, option {
 }
 #main-content.events:after, .events-heading:before, .events-heading:after {
 	content: "";
-	height: 60px;
+	height: 10px;
 	width: 1px;
 	background: #ccc;
 	display: block;
@@ -1641,7 +1641,7 @@ ul.events-list {
 			height: 100%;
 			overflow: hidden;
 		}
-		.events-list .date {
+		.events-list .day {
 			position: absolute;
 			top: 10px;
 			left: 20px;
@@ -1650,10 +1650,28 @@ ul.events-list {
 			font-weight: 800;
 			line-height: normal;
 		}
+		.events-list .date {
+			position: absolute;
+			top: 10px;
+			left: 100px;
+			color: #1589FF;
+			font-size: 30px;
+			font-weight: 800;
+			line-height: normal;
+		}
+		.events-list .time {
+			position: absolute;
+			top: 10px;
+			left: 195px;
+			color: #eee;
+			font-size: 30px;
+			font-weight: 800;
+			line-height: normal;
+		}
 
 		.events-list .title {
 			float: left;
-			margin: 0px 0 0px 220px;
+			margin: 0px 0 0px 420px;
 			font-size: 14px;
 			text-transform: uppercase;
 			color: #fff;

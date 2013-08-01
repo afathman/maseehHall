@@ -54,6 +54,7 @@
 	<script src="js/custom.js"></script>
 	<!-- Countdown date updating -->
 	<script src="js/update_date.js"></script>
+	<script src="js/countdown.js"></script>
 </head>
 <body class="page-events">
 <!--[if lte IE 7]>
@@ -118,21 +119,72 @@
 		<!-- /share it -->
 		<hr>
 		<div class="header-content text-center">
-			<span class="events-count" data-number="24">24</span> <!--%TODO Note to self. Actually put an automatically updating number here-->
+			<!--<span class="events-count" data-number=24>0</span> <!--%TODO Note to self. Actually put an automatically updating number here-->
+			<center><script type="application/javascript">
+			var test1 = new Countdown({
+							style   	: "boring",
+							width	  	: 400,   
+							height	 	: 60,   
+							rangeHi  : "day",	 	 
+							year	: 2013, 
+							month	: 8, 
+							day		: 24, 
+							hour	: 12,
+							ampm	: "am",
+							minute	: 0, 
+							second	: 0,
+							 labels	:	{
+                             color 	: "#ffffff"
+							 }
+						});
+			</script></center>
 		</div>
 	</div>
 </section>
 <!-- /page header -->
 <section id="main-content" class="container events">
-	<h4 class="events-heading">August <span class="color">2013</span></h4>
+	<h4 class="events-heading">All Week <span class="color"></span></h4>
+	<!-- events list -->
 	<!-- events list -->
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
 			<a href="event.html">
-				<span class="date">08/10</span>
-				<span class="cover"><img src="placeholders/event-small-poster.jpg" alt=""></span>
-				<span class="title">Update Me <span class="details">With Real Events</span></span>
+				<span class="date">08/24-08/29</span>
+				 
+				<span class="title">Help Moving In <span class="details"> Maseeh Lobby</span></span>
+				<span class="plus-button"></span>
+			</a>
+		</li>
+		<!-- /event -->
+	</ul>
+	<!--/events list -->
+	
+	<h4 class="events-heading">Saturday <span class="color"></span></h4>
+	<!-- events list -->
+	<ul class="none events-list">
+		<!-- event -->
+		<li>
+			<a href="event.html">
+				<span class="day">Sat</span> <span class="date">08/24</span> <span class="time">7PM-12AM</span>
+				 
+				<span class="title">Mafia <span class="details">Courtyard</span></span>
+				<span class="plus-button"></span>
+			</a>
+		</li>
+		<!-- /event -->
+		</ul>
+	<!--/events list -->
+	
+	<h4 class="events-heading">Sunday <span class="color"></span></h4>
+	<!-- events list -->
+	<ul class="none events-list">
+		<!-- event -->
+		<li>
+			<a href="event.html">
+				<span class="day">Sun</span><span class="date">08/25</span> <span class="time">8PM-11PM</span>
+				 
+				<span class="title">S’mores in the Courtyard <span class="details">Maseeh Courtyard</span></span>
 				<span class="plus-button"></span>
 			</a>
 		</li>
@@ -140,9 +192,9 @@
 		<!-- event -->
 		<li>
 			<a href="event.html">
-				<span class="date">10/11</span>
-				<span class="cover"><img src="placeholders/event-small-poster.jpg" alt=""></span>
-				<span class="title">Made in Glitch! <span class="details">London, UK</span></span>
+				<span class="day">Sun</span> <span class="date">08/25</span> <span class="time">8PM-2AM</span>
+				 
+				<span class="title">Board Games with Maseeh <span class="details">Senior Lecture Room</span></span>
 				<span class="plus-button"></span>
 			</a>
 		</li>
@@ -150,9 +202,25 @@
 		<!-- event -->
 		<li>
 			<a href="event.html">
-				<span class="date">30/11</span>
-				<span class="cover"><img src="placeholders/event-small-poster.jpg" alt=""></span>
-				<span class="title">Sanctuary Outdoor Festival <span class="details">Warsaw, Poland</span></span>
+				<span class="day">Sun</span> <span class="date">08/25</span> <span class="time">8PM-2AM</span>
+				 
+				<span class="title">Disney Movie Night! <span class="details">Media Room</span></span>
+				<span class="plus-button"></span>
+			</a>
+		</li>
+		<!-- /event -->
+	</ul>
+	<!--/events list -->
+	
+	<h4 class="events-heading">Monday <span class="color"></span></h4>
+	<!-- events list -->
+	<ul class="none events-list">
+		<!-- event -->
+		<li>
+			<a href="event.html">
+				<span class="day">Mon</span> <span class="date">08/26</span> <span class="time">4PM-7PM</span>
+				 
+				<span class="title">Castle Battle CTF! <span class="details">Maseeh Lobby</span></span>
 				<span class="plus-button"></span>
 			</a>
 		</li>
@@ -160,9 +228,25 @@
 		<!-- event -->
 		<li>
 			<a href="event.html">
-				<span class="date">02/12</span>
-				<span class="cover"><img src="placeholders/event-small-poster.jpg" alt=""></span>
-				<span class="title">Sunandbass <span class="details">Sardinia, Italy</span></span>
+				<span class="day">Mon</span> <span class="date">08/26</span> <span class="time">10PM-2AM</span>
+				 
+				<span class="title">Scary Movie Madness <span class="details">Media Room</span></span>
+				<span class="plus-button"></span>
+			</a>
+		</li>
+		<!-- /event -->
+		</ul>
+	<!--/events list -->
+	
+	<h4 class="events-heading">Tuesday <span class="color"></span></h4>
+	<!-- events list -->
+	<ul class="none events-list">
+		<!-- event -->
+		<li>
+			<a href="event.html">
+				<span class="day">Tue</span><span class="date">08/27</span> <span class="time">12PM-4PM</span>
+				 
+				<span class="title">Epic Water War Training <span class="details">Courtyard</span></span>
 				<span class="plus-button"></span>
 			</a>
 		</li>
@@ -170,88 +254,88 @@
 		<!-- event -->
 		<li>
 			<a href="event.html">
-				<span class="date">11/12</span>
-				<span class="cover"><img src="placeholders/event-small-poster.jpg" alt=""></span>
-				<span class="title">Amsterdam Dance Event <span class="details">Amsterdam, Holand</span></span>
+				<span class="day">Tue</span> <span class="date">08/27</span> <span class="time">4:30PM-7PM</span>
+				 
+				<span class="title">Maseeh Exploration (MEX) <span class="details">Floor Lounges</span></span>
+				<span class="plus-button"></span>
+			</a>
+		</li>
+		<!-- /event -->
+			<!-- event -->
+		<li>
+			<a href="event.html">
+				<span class="day">Tue</span> <span class="date">08/27</span> <span class="time">8:30PM-1AM</span>
+				 
+				<span class="title">Dance Competition! <span class="details">Game Room</span></span>
+				<span class="plus-button"></span>
+			</a>
+		</li>
+		<!-- /event -->
+		</ul>
+	<!--/events list -->
+	
+	<h4 class="events-heading">Wednesday <span class="color"></span></h4>
+	<!-- events list -->
+	<ul class="none events-list">
+			<!-- event -->
+		<li>
+			<a href="event.html">
+				<span class="day">Wed</span> <span class="date">08/28</span> <span class="time">8:00PM-2AM</span>
+				 
+				<span class="title">Disney Movie Night Round 2 <span class="details">Media Room</span></span>
+				<span class="plus-button"></span>
+			</a>
+		</li>
+		<!-- /event -->
+			<!-- event -->
+		<li>
+			<a href="event.html">
+				<span class="day">Wed</span> <span class="date">08/28</span> <span class="time">10PM-12AM</span>
+				 
+				<span class="title">Ultimate Frisbee <span class="details">Courtyard</span></span>
+				<span class="plus-button"></span>
+			</a>
+		</li>
+		<!-- /event -->
+		</ul>
+	<!--/events list -->
+	
+	<h4 class="events-heading">Thursday <span class="color"></span></h4>
+	<!-- events list -->
+	<ul class="none events-list">
+			<!-- event -->
+		<li>
+			<a href="event.html">
+				<span class="day">Thu</span> <span class="date">08/29</span> <span class="time">12PM-5PM</span>
+				 
+				<span class="title">Carnival <span class="details">Courtyard</span></span>
+				<span class="plus-button"></span>
+			</a>
+		</li>
+		<!-- /event -->
+				<!-- event -->
+		<li>
+			<a href="event.html">
+				<span class="day">Thu</span> <span class="date">08/29</span> <span class="time">3PM-5PM</span>
+				 
+				<span class="title">Balloon Dart Painting <span class="details">Courtyard</span></span>
+				<span class="plus-button"></span>
+			</a>
+		</li>
+		<!-- /event -->
+				<!-- event -->
+		<li>
+			<a href="event.html">
+				<span class="day">Thu</span> <span class="date">08/29</span> <span class="time">7PM-10PM</span>
+				 
+				<span class="title">Dessert Around Town! <span class="details">Maseeh Lobby</span></span>
 				<span class="plus-button"></span>
 			</a>
 		</li>
 		<!-- /event -->
 	</ul>
 	<!-- /events list -->
-	<h4 class="events-heading">September <span class="color">2013</span></h4>
-	<!-- events list -->
-	<ul class="none events-list">
-		<!-- event -->
-		<li>
-			<a href="event.html">
-				<span class="date">02/12</span>
-				<span class="title">Sunandbass <span class="details">Sardinia, Italy</span></span>
-				<span class="plus-button"></span>
-			</a>
-		</li>
-		<!-- /event -->
-		<!-- event -->
-		<li>
-			<a href="event.html">
-				<span class="date">11/12</span>
-				<span class="title">Amsterdam Dance Event <span class="details">Amsterdam, Holand</span></span>
-				<span class="plus-button"></span>
-			</a>
-		</li>
-		<!-- /event -->
-	</ul>
-	<!-- /events list -->
-	<h4 class="events-heading">December <span class="color">2013</span></h4>
-	<!-- events list -->
-	<ul class="none events-list">
-		<!-- event -->
-		<li>
-			<a href="event.html">
-				<span class="date">08/10</span>
-				<span class="title">Power Bass Festival <span class="details">Melbourne, Australia</span></span>
-				<span class="plus-button"></span>
-			</a>
-		</li>
-		<!-- /event -->
-		<!-- event -->
-		<li>
-			<a href="event.html">
-				<span class="date">10/11</span>
-				<span class="title">Made in Glitch! <span class="details">London, UK</span></span>
-				<span class="plus-button"></span>
-			</a>
-		</li>
-		<!-- /event -->
-		<!-- event -->
-		<li>
-			<a href="event.html">
-				<span class="date">30/11</span>
-				<span class="title">Sanctuary Outdoor Festival <span class="details">Warsaw, Poland</span></span>
-				<span class="plus-button"></span>
-			</a>
-		</li>
-		<!-- /event -->
-		<!-- event -->
-		<li>
-			<a href="event.html">
-				<span class="date">02/12</span>
-				<span class="title">Sunandbass <span class="details">Sardinia, Italy</span></span>
-				<span class="plus-button"></span>
-			</a>
-		</li>
-		<!-- /event -->
-		<!-- event -->
-		<li>
-			<a href="event.html">
-				<span class="date">11/12</span>
-				<span class="title">Amsterdam Dance Event <span class="details">Amsterdam, Holand</span></span>
-				<span class="plus-button"></span>
-			</a>
-		</li>
-		<!-- /event -->
-	</ul>
-	<!-- /events list -->
+	
 </section><!-- footer-top -->
 <section id="footer-top">
 	<div class="container clearfix">
