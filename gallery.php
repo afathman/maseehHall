@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+2<!DOCTYPE html>
 <!--[if lte IE 8]><html class="ie8 no-js" lang="en"><![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie no-js" lang="en"><!--<![endif]-->
 <head>
@@ -106,7 +106,7 @@
 	<div class="container clearfix">
 		<hgroup>
 			<h1 class="page-title">Gallery</h1>
-			<h2 class="page-subtitle">A few photos from Maseeh</h2>
+			<h2 class="page-subtitle">A few photos from Maseeh--Coming Soon</h2>
 		</hgroup>
 		<!-- share it -->
 		<div id="share-wrap">
@@ -123,82 +123,7 @@
 	<!-- masonry boxes -->
 		<div class="masonry-wrap clearfix">
 			<div class="masonry width-1-4 height-1-4">
-				<a href="#" class="thumb-slide tip" data-tip-title="#Bass Fetival 07/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
-					<span class="thumbs-wrap">
-						<img src="placeholders/gallery-02.jpg" alt="" title="" />
-						<img src="placeholders/gallery-02.jpg" alt="" title="" />
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="#" class="thumb-slide tip" data-tip-title="#Glitch Wars 08/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
-					<span class="thumbs-wrap">
-						<img src="placeholders/gallery-03.jpg" alt="" title="" />
-						<img src="placeholders/gallery-03.jpg" alt="" title="" />
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="#" class="thumb-slide tip" data-tip-title="#Explosions 05/2012" data-tip-desc="Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
-					<span class="thumbs-wrap">
-						<img src="placeholders/gallery-04.jpg" alt="" title="" />
-						<img src="placeholders/gallery-04.jpg" alt="" title="" />
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="#" class="thumb-slide tip" data-tip-title="#Glitch Wars 08/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.">
-					<span class="thumbs-wrap">
-						<img src="placeholders/gallery-05.jpg" alt="" title="" />
-						<img src="placeholders/gallery-05.jpg" alt="" title="" />
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-2 height-1-2">
-				<a href="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F37028581&amp;auto_play=false&amp;show_artwork=true&amp;color=1589FF" class="thumb-icon mediabox tip" data-width="auto" data-height="200" data-tip-title="#Soundcloud podcast (56 min)" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
-					<img src="placeholders/gallery-01.jpg" alt="" title="" />
-					<span class="icon soundcloud"></span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="#" class="thumb-slide tip" data-tip-title="#Global Underground 05/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
-					<span class="thumbs-wrap">
-						<img src="placeholders/gallery-06.jpg" alt="" title="" />
-						<img src="placeholders/gallery-06.jpg" alt="" title="" />
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="#" class="thumb-slide tip" data-tip-title="#ADG3 Studios - Busted Chump 04/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
-					<span class="thumbs-wrap">
-						<img src="placeholders/gallery-07.jpg" alt="" title="" />
-						<img src="placeholders/gallery-07.jpg" alt="" title="" />
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-3-4 height-1-2 media">
-				<!-- nivo slider -->
-				<div class="nivo-slider">
-					<img src="placeholders/gallery-08.jpg" alt="" title="" />
-					<img src="placeholders/gallery-09.jpg" alt="" title="" />
-		        </div>
-				<!-- /nivo slider -->
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="#" class="thumb-slide tip" data-tip-title="#Bass Monsterz 03/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
-					<span class="thumbs-wrap">
-						<img src="placeholders/gallery-02.jpg" alt="" title="" />
-						<img src="placeholders/gallery-02.jpg" alt="" title="" />
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="#" class="thumb-slide tip" data-tip-title="#Drum!Bass! 12/2011" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
-					<span class="thumbs-wrap">
-						<img src="placeholders/gallery-03.jpg" alt="" title="" />
-						<img src="placeholders/gallery-03.jpg" alt="" title="" />
-					</span>
-				</a>
+				
 			</div>
 		</div>
 		<!-- /masonry boxes -->
@@ -272,19 +197,13 @@ document.write("- "+yr);
 </script> - Maseeh Hall. All rights reserved.
 		            </div>
 		</div>
-		<div class="col-1-2 last">
+				<div class="col-1-2 last">
 			<!-- footer twitter -->
 			<div id="footer-twitter">
-				<!-- twitter feed -->
-				<ul class="tweets">
-					<li>Oops, our Twitter feed is unavailable at the moment - <a href="https://twitter.com/Maseeh_Hall">Follow us on Twitter!</a></li>
-				</ul>	
-				<!-- /twitter feed  -->
-			</div>
-			<!-- /footer twitter -->
+				<!--Twitter website widget -->
+<iframe width="460" height="100" src="http://twitterforweb.com/iframe/twitterbox/Maseeh_Hall.html?s=1,0,1,460,120,f4f4f4,1,999999,eeeeee,2,2,eeeeee" frameborder="0" scrolling="no" allowtransparency="1"></iframe>
+<!--/Twitter website widget -->
 		</div>
-		<!-- twitter icon -->
-		<a href="https://twitter.com/Maseeh_Hall" class="twitter-button"></a>
 	</section>
 </footer>
 <!-- /footer -->

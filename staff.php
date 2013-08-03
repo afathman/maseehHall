@@ -120,7 +120,7 @@
                 	<!--Housemasters-->
                     	<div class="caption lfl" data-x="0" data-y="100" data-speed="2000" data-start="2000" data-easing="easeOutExpo"><a href="#housemasters"><img src="img/people/throw/Jack.png" style="width:120px; height:120px;"/></a></div>
                         <div class="caption lfl" data-x="100" data-y="120" data-speed="2000" data-start="2000" data-easing="easeOutExpo"><a href="#housemasters"><img src="img/people/throw/Suzanne.png" style="width:120px; height:120px;"/></a></div>
-                    <!--/Housemasters>
+                    <!--/Housemasters-->
                     <!--AssistantHousemasters-->
                      	<div class="caption lfl" data-x="0" data-y="370" data-speed="2000" data-start="2000" data-easing="easeOutExpo"><a href="#housemasters"><img src="img/people/throw/Cullen.png" style="width:120px; height:120px;"/></a></div>
                         <div class="caption lfb" data-x="120" data-y="360" data-speed="2000" data-start="2100" data-easing="easeOutExpo"><a href="#housemasters"><img src="img/people/throw/Donielle.png" style="width:120px; height:120px;"/></a></div>
@@ -421,19 +421,14 @@ document.write("- "+yr);
 </script> - Maseeh Hall. All rights reserved.
 		            </div>
 		</div>
+		
 		<div class="col-1-2 last">
 			<!-- footer twitter -->
 			<div id="footer-twitter">
-				<!-- twitter feed -->
-				<ul class="tweets">
-					<li>Oops, our Twitter feed is unavailable at the moment - <a href="https://twitter.com/Maseeh_Hall">Follow us on Twitter!</a></li>
-				</ul>	
-				<!-- /twitter feed  -->
-			</div>
-			<!-- /footer twitter -->
+				<!--Twitter website widget -->
+<iframe width="460" height="100" src="http://twitterforweb.com/iframe/twitterbox/Maseeh_Hall.html?s=1,0,1,460,120,f4f4f4,1,999999,eeeeee,2,2,eeeeee" frameborder="0" scrolling="no" allowtransparency="1"></iframe>
+<!--/Twitter website widget -->
 		</div>
-		<!-- twitter icon -->
-		<a href="https://twitter.com/Maseeh_Hall" class="twitter-button"></a>
 	</section>
 </footer>
 <!-- /footer -->

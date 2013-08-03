@@ -14,16 +14,16 @@ $your_email_address = 'maseeh@mit.edu';
 $username = 'Maseeh_Hall';
 
 // Twitter consumer key
-$consumer_key = 'Fr1n0UfyMenHPkn9TvbgpA';
+$consumer_key = 'qGfbq0uphcu2b7P2FZYLsA';
 
 // Twitter consumer secret key
-$consumer_secret = 'TfK3Ll7kjkAICYh9SrCvcs8PuogauKfPx1TjDSjzb9I';
+$consumer_secret = 'dOzR2fZHuZbjK11XUS8WH7E2P2tUccEZZwjYkIiqw';
 
 // Twitter access token
-$access_token = '1602373820-1gFGFhkOwVZ1QUAtZUZWB9bj3kQKPcijxgGovAq';
+$access_token = '1602373820-8dswFmCVsCtJr9zWfv63PGde36LfVbwOScX37Qv';
 
 // Twitter access token secret
-$access_token_secret = '2r8oR88xcwz04STZbIRaCpNAAQP3DiKBCdS37rRewEQ';
+$access_token_secret = 'nPuaU8JFBPnt0v5QyNQ8q6GqSEAnWnSM9DVsnW35Y';
 
 // Do you want to show replies
 $ignore_replies = true;
@@ -36,3 +36,4 @@ $date_format = 'F d, Y';
 
 // Twitter cache time (default is 1 hour) now set at 5 min
 $twitter_cachetime = 5*60;
+?>

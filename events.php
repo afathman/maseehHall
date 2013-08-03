@@ -121,7 +121,7 @@
 		<!-- /share it -->
 		<hr>
 		<div class="header-content text-center">
-			<!--<span class="events-count" data-number=24>0</span> <!--%TODO Note to self. Actually put an automatically updating number here-->
+			<!--<span class="events-count" data-number=24>0</span> -->
 			<center><script type="application/javascript">
 			var test1 = new Countdown({
 							style   	: "boring",
@@ -384,16 +384,10 @@ document.write("- "+yr);
 		<div class="col-1-2 last">
 			<!-- footer twitter -->
 			<div id="footer-twitter">
-				<!-- twitter feed -->
-				<ul class="tweets">
-					<li>Oops, our Twitter feed is unavailable at the moment - <a href="https://twitter.com/Maseeh_Hall">Follow us on Twitter!</a></li>
-				</ul>	
-				<!-- /twitter feed  -->
-			</div>
-			<!-- /footer twitter -->
+				<!--Twitter website widget -->
+<iframe width="460" height="100" src="http://twitterforweb.com/iframe/twitterbox/Maseeh_Hall.html?s=1,0,1,460,120,f4f4f4,1,999999,eeeeee,2,2,eeeeee" frameborder="0" scrolling="no" allowtransparency="1"></iframe>
+<!--/Twitter website widget -->
 		</div>
-		<!-- twitter icon -->
-		<a href="https://twitter.com/Maseeh_Hall" class="twitter-button"></a>
 	</section>
 </footer>
 <!-- /footer -->

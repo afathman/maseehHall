@@ -7,6 +7,8 @@
  *
 */
 
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
 // Get settings
 require_once('config.php');
 
@@ -62,14 +64,14 @@ if (time() - $twitter_cachetime < $cache_file_created) {
 	// Make Requests
 	$header = array(buildAuthorizationHeader($oauth), 'Expect:');
 	$options = array( 
-		CURLOPT_HTTPHEADER => $header,
-      //CURLOPT_POSTFIELDS => $postfields,
-      CURLOPT_HEADER => false,
-      CURLOPT_URL => $url . "?screen_name=$username$replies&count=20",
-      CURLOPT_RETURNTRANSFER => true,
-      CURLOPT_SSL_VERIFYPEER => false,
-      CURLOPT_TIMEOUT => 100,
-      CURLOPT_CONNECTTIMEOUT => 10
+		'CURLOPT_HTTPHEADER' => $header,
+      //'CURLOPT_POSTFIELDS' => $postfields,
+      'CURLOPT_HEADER' => false,
+      'CURLOPT_URL' => $url . "?screen_name=$username$replies&count=20",
+      'CURLOPT_RETURNTRANSFER' => true,
+      'CURLOPT_SSL_VERIFYPEER' => false,
+      'CURLOPT_TIMEOUT' => 100,
+      'CURLOPT_CONNECTTIMEOUT' => 10
  	);
 
 	// Initiate the curl session

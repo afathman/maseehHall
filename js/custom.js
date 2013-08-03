@@ -1034,12 +1034,12 @@ jQuery(document).ready(function($) {
 		if($gmap.length) {
 
 			$gmap.gMap({
-				address: 'Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia',
+				address: '305 Memorial Dr., Cambridge, MA 02139',
 				zoom: 16,
 				zoomControl: true,
 				scrollwheel: false,
 				markers: [
-					{ 'address' : 'Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia' }
+					{ 'address' : '305 Memorial Dr., Cambridge, MA 02139' }
 				]
 			});
 
