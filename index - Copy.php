@@ -159,64 +159,96 @@
 		<!-- box -->
 		<div class="box col-1-3 last">
 			<div class="widget">
-				<h3>Upcoming <span class="color">Events.</span></h3>
+				<h3>Latest <span class="color">News.</span></h3>
 				<ul class="recent-entries">
-
-			<!-- event -->
-			<li>
-				<a href="events.php">
-					<span class="date">08/24</span>
-					<span class="title">Maseeh Mafia!</span>
-					<span class="plus-button"></span>
-				</a>
-			</li>
-			<!-- /event -->
-			<!-- event -->
-			<li>
-				<a href="events.php">
-					<span class="date">08/25</span>
-					<span class="title">Late night S'mores </span>
-					<span class="plus-button"></span>
-				</a>
-			</li>
-			<!-- /event -->
-			<!-- event -->
-			<li>
-				<a href="events.php">
-					<span class="date">08/25</span>
-					<span class="title">Board Games </span>
-					<span class="plus-button"></span>
-				</a>
-			</li>
-			<!-- /event -->
-			<!-- event -->
-			<li>
-				<a href="events.php">
-					<span class="date">08/25</span>
-					<span class="title">Disney Movie Night</span>
-					<span class="plus-button"></span>
-				</a>
-			</li>
-            <!-- /event -->
-            <li>
-				<a href="events.php">
-					<span class="date">...</span>
-					<span class="title">More!</span>
-					<span class="plus-button"></span>
-				</a>
-			</li>
-            <!-- /event -->
-			
+					<li><span class="date">07/22/13</span> <a href="#">Maseeh.mit.edu beta released!</a> </li>
+					<li><span class="date">07/04/13</span> <a href="#">Happy 4th of July!</a> </li>
+					<li><span class="date">06/01/13</span> <a href="#">Have a fantastic summer!</a> </li>
+					<li><span class="date">05/25/13</span> <a href="#">We may want to put....</a> </li>
+					<li><span class="date">05/22/13</span> <a href="#">actualy news worthy articles here. Twitter feed for quick announcements.</a> </li>
 				</ul>
 			</div>
-			
+			<!-- Twitter feed widget -->
+			<div class="widget">
+				<h3 class="widget-title">Twitter feed.</h3>
+				<!-- twitter feed -->
+				<ul class="tweets" data-tweets-count="2">
+					<li>Oops, our Twitter feed is unavailable at the moment - <a href="https://twitter.com/Maseeh_Hall">Follow us on Twitter!</a></li>
+				</ul>	
+				<!-- /twitter feed  -->
+			</div>
 		</div>
 		<!-- /box -->
 	</section>
 	<!-- /boxes -->
 	
 </section>
-<!-- footer-top -->
+<!-- upcoming events -->
+<section id="upcoming-events">
+	<section class="container clearfix">
+	<!-- left column -->
+	<div class="col-1-2">
+		<h3 class="medium-heading"><span class="color">Upcoming</span><br/>Events.</h3>
+	</div>
+	<!-- /left column -->
+	<!-- right column -->
+	<div class="col-1-2 last">
+		<!-- events list -->
+        
+		<ul class="none events-list-index">
+			<!-- event -->
+			<li>
+				<a href="events.php">
+					<span class="date">08/24-8/29</span>
+					<span class="title">Help Moving In <span class="details">Lobby</span></span>
+					<span class="plus-button"></span>
+				</a>
+			</li>
+			<!-- /event -->
+			<!-- event -->
+			<li>
+				<a href="events.php">
+					<span class="date">08/24-7pm</span>
+					<span class="title">Mafia! <span class="details">Courtyard</span></span>
+					<span class="plus-button"></span>
+				</a>
+			</li>
+			<!-- /event -->
+			<!-- event -->
+			<li>
+				<a href="events.php">
+					<span class="date">08/25-8PM</span>
+					<span class="title">S'mores <span class="details">Courtyard</span></span>
+					<span class="plus-button"></span>
+				</a>
+			</li>
+			<!-- /event -->
+			<!-- event -->
+			<li>
+				<a href="events.php">
+					<span class="date">08/25-8PM</span>
+					<span class="title">Board Games <span class="details">Senior Lecture Room</span></span>
+					<span class="plus-button"></span>
+				</a>
+			</li>
+			<!-- /event -->
+			<!-- event -->
+			<li>
+				<a href="events.php">
+					<span class="date">08/25-8PM</span>
+					<span class="title">Disney Movie Night <span class="details">Media Room</span></span>
+					<span class="plus-button"></span>
+				</a>
+			</li>
+			<!-- /event -->
+		
+		</ul>
+		<!-- /events list -->
+	</div>
+	<!-- /right column -->
+	</section>
+</section>
+<!-- /upcoming events --><!-- footer-top -->
 <section id="footer-top">
 	<div class="container clearfix">
 		<div class="col-2-3">	<ul class="contact">

@@ -157,7 +157,8 @@
 		<!-- box -->
 		<article class="box col-3-3">
 			<h2>The <span class="color"><a id="housemasters">Housemasters</a></span></h2>
-			<h4>Housemaster Apartment - 6th Floor</h4>
+			<h4>Room: 6065</h4>
+            
             <img src="img/people/Jack.png" align="left">
 		  <h3><span class="color">Jack</span> Caroll</h3>
 <p>Jack grew up in suburban New Jersey (quiet), went to military high school in Manhattan (exciting city!), and to college in northern Vermont (beautiful, cold winters) and in Rome, Italy (fantastic!).He received a Masters from the University of Chicago in Social Sciences and a PhD from Cornell University in Experimental Psychology. His thesis research was on how comprehension of non-literal communications (e.g., sarcasm, irony) develops from young children through adults – the communications that Sheldon (Big Bang Theory) seems to find so unintuitive. After a stint on the psychology faculty at Northeastern University, he worked for several research companies providing market research and user-centered design services to a wide range of clients. He founded and led a research company that helped major banks and investment companies develop innovative, user-centered online, voice, and kiosk-based interfaces. His interest in helping to establish Maseeh Hall emerges from an unforgettable experience as an undergraduate in Rome, where he learned that an educational community committed to enabling active and varied engagement with a diverse world can create a transformative life experience. He’s happy to help with brainstorming, planning, and launching any new activity for Maseeh, exploring international education/intern opportunities, starting a discussion club on lots of topics, talking sports (soccer and football in particular) over dinner, cheering on Maseeh IM teams, etc. </p>
@@ -177,6 +178,7 @@
 		<!-- box -->
 		<article class="box col-3-3">
 			<h2>The <span class="color"><a id="assistant">Assistant Housemasters</a></span></h2>
+            <h4>Room: 3006</h4>
 			<img src="img/people/Cullen.png" align="left"><h3><span class="color">Cullen</span> Buie</h3> 
 
 <p>Cullen is the Mitsui Career Development Chair and Assistant Professor of Mechanical Engineering at MIT. Cullen was born in St. Louis, MO and grew up in Shaker Heights, Ohio. As a student at Shaker Heights High School he was involved in sports (football and basketball) and several organizations to improve race relations within the community. He then attended The Ohio State University where he received his B.S. in Mechanical Engineering (2003). After OSU, Cullen attended Stanford University as a National Science Foundation Graduate Research Fellow and obtained his M.S. (2005) and Ph.D. (2009) in Mechanical Engineering. Cullen's Ph.D. research involved the study of microfluidic pumps to manage liquid water in proton exchange membrane fuel cells. He and his wife, Donielle, met at Stanford in 2004 while she was completing her Master's degree. Prior to joining MIT Cullen spent a year at UC Berkeley working with Professor Liwei Lin and Professor John Coates as a UC President’s Postdoctoral Fellow. At MIT his laboratory explores fundamentals of electrokinetic phenomena for application in materials science and microbiology. His research is applicable to a diverse array of problems, from antibiofouling surfaces and biofuels to energy storage and bacterial infections. Cullen is the recipient of numerous awards for his research and service including the National Science Foundation CAREER Award (2012). In his spare time Cullen enjoys changing his son Jeremiah's diapers and watching college football (particularly, THE Ohio State University). He also enjoys stupid movies (e.g. Talladega Nights) and eating meat...lots and lots of meat.</p>
@@ -304,7 +306,7 @@ Apart from science, I'm also passionate about travel, community service and a lo
 
 <img src="img/people/Laura.png" align="left"><h3><span class="color">Laura</span> Stoppel</h3>
 <h4>Room: 3081</h4>
-<h4>Email: TBD</h4>
+<h4>Email: lstoppel (at) mit.edu></h4>
 
 <p>Hello!  Hailing from sunny South Florida I moved up to Boston in 2004 and graduated from Harvard College in 2008 with a degree in Biology and minor in Psychology. During college I focused on Neuroscience and Marine Biology, working in both a Marine Biology lab with field work in Bermuda and a Neuroscience lab at Harvard Medical School.  After graduation I worked in a Neuroscience lab at Harvard and I am currently working towards my PhD in Course 9, Brain and Cognitive Sciences (Systems Neuroscience) at MIT.  I am a proud member of the Bear lab (a bear cub, as we are called) and broadly speaking, my research focuses on the synaptic pathophysiology of Autism.</p>
 <p>I live by an “I’ll try everything once” motto, which has led to some exciting adventures such as sky diving and hiking part of the Appalachian Trail.  I’m a huge sports fan (sorry, my ties to South Florida are strong- Go Heat!) and in my free time I enjoy baking, karaoke, scuba diving, playing water polo and attending Boston Symphony Orchestra concerts.  I’m very excited to be a part of the Maseeh family and look forward to meeting everyone so stop by and say hello!  I’m happy to help with: Neuroscience, Biology and Psychology.</p>
@@ -313,7 +315,7 @@ Apart from science, I'm also passionate about travel, community service and a lo
 
 <img src="img/people/Sarah.png" align="left"><h3><span class="color">Sarah</span> Moshary</h3>
 <h4>Room: 3019</h4>
-<h4>Email: TBD</h4>
+<h4>Email: smoshary (at) mit.edu</h4>
 
 <p>Although I was born and raised in New York City, I've spent the last 6 years living in the Boston area; I did my undergrad at Harvard, and I am now a third year PhD student in the MIT Economics Department. While I’m always happy to help with economics or statistics-related questions, I also enjoy swimming, yoga, and taking pottery classes at the Student Art Association, where I've succeeded in making lots of wobbly cups. I am not an avid baseball fan, so don't worry about having Red Sox/Yankees arguments with me, but I do enjoy (watching) soccer. </p>
 <p>My newest hobby is cooking -- something I discovered as a grad student -- so I welcome any recipe suggestions or help from fellow amateur chefs. I'm also a big fan of rock music: indie, punk and classic. As an undergraduate, I worked at a radio station (I hosted a 3:30 am show on Wednesday mornings!), but I have since taken a more relaxed approach to the Boston rock scene.</p>

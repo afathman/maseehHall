@@ -241,7 +241,7 @@ function SoundManager(smURL, smID) {
    * treat as read-only.
    */
 
-  this.php5 = {
+  this.html5 = {
     'usingFlash': null // set if/when flash fallback is needed
   };
 
@@ -249,7 +249,7 @@ function SoundManager(smURL, smID) {
   this.flash = {};
 
   // determined at init time
-  this.php5Only = false;
+  this.html5Only = false;
 
   // used for special cases (eg. iPad/iPhone/palm OS?)
   this.ignoreFlash = false;
@@ -326,7 +326,7 @@ function SoundManager(smURL, smID) {
 
     // warn if flash options have already been applied
 
-    if (options !== _undefined && didInit && needsFlash && sm2.ok() && (options.flashVersion !== _undefined || options.url !== _undefined || options.php5Test !== _undefined)) {
+    if (options !== _undefined && didInit && needsFlash && sm2.ok() && (options.flashVersion !== _undefined || options.url !== _undefined || options.html5Test !== _undefined)) {
       complain(str('setupLate'));
     }
 
@@ -1296,7 +1296,7 @@ function SoundManager(smURL, smID) {
 
     // reset HTML5 and flash canPlay test results
 
-    sm2.php5 = {
+    sm2.html5 = {
       'usingFlash': null
     };
 
@@ -1304,7 +1304,7 @@ function SoundManager(smURL, smID) {
 
     // reset device-specific HTML/flash mode switches
 
-    sm2.php5Only = false;
+    sm2.html5Only = false;
     sm2.ignoreFlash = false;
 
     window.setTimeout(function() {
@@ -1892,7 +1892,7 @@ function SoundManager(smURL, smID) {
           if (fV === 9 && !startOK) {
             // edge case: no sound hardware, or 32-channel flash ceiling hit.
             // applies only to Flash 9, non-NetStream/MovieStar sounds.
-            // http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/media/Sound.php#play%28%29
+            // http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/media/Sound.html#play%28%29
             sm2._wD(fN + 'No sound hardware, or 32-sound ceiling hit');
             if (s._iO.onplayerror) {
               s._iO.onplayerror.apply(s);
@@ -2263,7 +2263,7 @@ function SoundManager(smURL, smID) {
        * Note: Setting volume has no effect on iOS "special snowflake" devices.
        * Hardware volume control overrides software, and volume
        * will always return 1 per Apple docs. (iOS 4 + 5.)
-       * http://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/HTML-canvas-guide/AddingSoundtoCanvasAnimations/AddingSoundtoCanvasAnimations.php
+       * http://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/HTML-canvas-guide/AddingSoundtoCanvasAnimations/AddingSoundtoCanvasAnimations.html
        */
 
       if (nVol === _undefined) {
@@ -2690,7 +2690,7 @@ function SoundManager(smURL, smID) {
     this._apply_loop = function(a, nLoops) {
 
       /**
-       * boolean instead of "loop", for webkit? - spec says string. http://www.w3.org/TR/html-markup/audio.php#audio.attrs.loop
+       * boolean instead of "loop", for webkit? - spec says string. http://www.w3.org/TR/html-markup/audio.html#audio.attrs.loop
        * note that loop is either off or infinite under HTML5, unlike Flash which allows arbitrary loop counts to be specified.
        */
 
@@ -3788,7 +3788,7 @@ function SoundManager(smURL, smID) {
     } else {
 
       // Use type, if specified. If HTML5-only mode, no other options, so just give 'er
-      result = ((iO.type ? html5CanPlay({type:iO.type}) : html5CanPlay({url:iO.url}) || sm2.php5Only));
+      result = ((iO.type ? html5CanPlay({type:iO.type}) : html5CanPlay({url:iO.url}) || sm2.html5Only));
 
     }
 
@@ -3849,8 +3849,8 @@ function SoundManager(smURL, smID) {
 
     // account for known cases like audio/mp3
 
-    if (mime && sm2.php5[mime] !== _undefined) {
-      return (sm2.php5[mime] && !preferFlashCheck(mime));
+    if (mime && sm2.html5[mime] !== _undefined) {
+      return (sm2.html5[mime] && !preferFlashCheck(mime));
     }
 
     if (!html5Ext) {
@@ -3883,15 +3883,15 @@ function SoundManager(smURL, smID) {
       fileExt = fileExt[1];
     }
 
-    if (fileExt && sm2.php5[fileExt] !== _undefined) {
+    if (fileExt && sm2.html5[fileExt] !== _undefined) {
       // result known
-      result = (sm2.php5[fileExt] && !preferFlashCheck(fileExt));
+      result = (sm2.html5[fileExt] && !preferFlashCheck(fileExt));
     } else {
       mime = 'audio/'+fileExt;
-      result = sm2.php5.canPlayType({type:mime});
-      sm2.php5[fileExt] = result;
+      result = sm2.html5.canPlayType({type:mime});
+      sm2.html5[fileExt] = result;
       // sm2._wD('canPlayType, found result: ' + result);
-      result = (result && sm2.php5[mime] && !preferFlashCheck(mime));
+      result = (result && sm2.html5[mime] && !preferFlashCheck(mime));
     }
 
     return result;
@@ -3926,9 +3926,9 @@ function SoundManager(smURL, smID) {
       if (m instanceof Array) {
         // iterate through all mime types, return any successes
         for (i=0, j=m.length; i<j; i++) {
-          if (sm2.php5[m[i]] || a.canPlayType(m[i]).match(sm2.php5Test)) {
+          if (sm2.html5[m[i]] || a.canPlayType(m[i]).match(sm2.html5Test)) {
             isOK = true;
-            sm2.php5[m[i]] = true;
+            sm2.html5[m[i]] = true;
             // note flash support, too
             sm2.flash[m[i]] = !!(m[i].match(flashMIME));
           }
@@ -3936,7 +3936,7 @@ function SoundManager(smURL, smID) {
         result = isOK;
       } else {
         canPlay = (a && typeof a.canPlayType === 'function' ? a.canPlayType(m) : false);
-        result = !!(canPlay && (canPlay.match(sm2.php5Test)));
+        result = !!(canPlay && (canPlay.match(sm2.html5Test)));
       }
 
       return result;
@@ -3979,7 +3979,7 @@ function SoundManager(smURL, smID) {
 
             // eg. audio/m4a
             support['audio/'+aF[item].related[i]] = support[item];
-            sm2.php5[aF[item].related[i]] = support[item];
+            sm2.html5[aF[item].related[i]] = support[item];
             sm2.flash[aF[item].related[i]] = support[item];
 
           }
@@ -3991,7 +3991,7 @@ function SoundManager(smURL, smID) {
     }
 
     support.canPlayType = (a?cp:null);
-    sm2.php5 = mixin(sm2.php5, support);
+    sm2.html5 = mixin(sm2.html5, support);
 
     return true;
 
@@ -4007,7 +4007,7 @@ function SoundManager(smURL, smID) {
     swf404: smc + 'Verify that %s is a valid path.',
     tryDebug: 'Try ' + sm + '.debugFlash = true for more security details (output goes to SWF.)',
     checkSWF: 'See SWF output for more debug info.',
-    localFail: smc + 'Non-HTTP page (' + doc.location.protocol + ' URL?) Review Flash player security settings for this special case:\nhttp://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.php\nMay need to add/allow path, eg. c:/sm2/ or /users/me/sm2/',
+    localFail: smc + 'Non-HTTP page (' + doc.location.protocol + ' URL?) Review Flash player security settings for this special case:\nhttp://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html\nMay need to add/allow path, eg. c:/sm2/ or /users/me/sm2/',
     waitFocus: smc + 'Special case: Waiting for SWF to load with window focus...',
     waitForever: smc + 'Waiting indefinitely for Flash (will recover if unblocked)...',
     waitSWF: smc + 'Waiting for 100% SWF load...',
@@ -4019,7 +4019,7 @@ function SoundManager(smURL, smID) {
     onload: smc + 'initComplete(): calling soundManager.onload()',
     onloadOK: sm + '.onload() complete',
     didInit: smc + 'init(): Already called?',
-    secNote: 'Flash security note: Network/internet URLs will not load due to security restrictions. Access can be configured via Flash Player Global Security Settings Page: http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.php',
+    secNote: 'Flash security note: Network/internet URLs will not load due to security restrictions. Access can be configured via Flash Player Global Security Settings Page: http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html',
     badRemove: smc + 'Failed to remove Flash node.',
     shutdown: sm + '.disable(): Shutting down',
     queue: smc + 'Queueing %s handler',
@@ -4186,12 +4186,12 @@ function SoundManager(smURL, smID) {
 
     var isDebug = (sm2.debugMode || sm2.debugFlash?'_debug.swf':'.swf');
 
-    if (sm2.useHTML5Audio && !sm2.php5Only && sm2.audioFormats.mp4.required && fV < 9) {
+    if (sm2.useHTML5Audio && !sm2.html5Only && sm2.audioFormats.mp4.required && fV < 9) {
       sm2._wD(str('needfl9'));
       sm2.flashVersion = fV = 9;
     }
 
-    sm2.version = sm2.versionNumber + (sm2.php5Only?' (HTML5-only mode)':(fV === 9?' (AS3/Flash 9)':' (AS2/Flash 8)'));
+    sm2.version = sm2.versionNumber + (sm2.html5Only?' (HTML5-only mode)':(fV === 9?' (AS3/Flash 9)':' (AS2/Flash 8)'));
 
     // set up default options
     if (fV > 8) {
@@ -4376,7 +4376,7 @@ function SoundManager(smURL, smID) {
         css = swfCSS,
         error = {type:'FLASHBLOCK'};
 
-    if (sm2.php5Only) {
+    if (sm2.html5Only) {
       return false;
     }
 
@@ -4514,7 +4514,7 @@ function SoundManager(smURL, smID) {
 
   detectFlash = function() {
 
-    // hat tip: Flash Detect library (BSD, (C) 2007) by Carl "DocYes" S. Yestrau - http://featureblend.com/javascript-flash-detection-library.php / http://featureblend.com/license.txt
+    // hat tip: Flash Detect library (BSD, (C) 2007) by Carl "DocYes" S. Yestrau - http://featureblend.com/javascript-flash-detection-library.html / http://featureblend.com/license.txt
 
     if (hasFlash !== _undefined) {
       // this work has already been done.
@@ -4562,7 +4562,7 @@ function SoundManager(smURL, smID) {
       sm2.hasHTML5 = false;
 
       // ignore flash case, however
-      sm2.php5Only = true;
+      sm2.html5Only = true;
 
       if (sm2.oMC) {
         sm2.oMC.style.display = 'none';
@@ -4574,7 +4574,7 @@ function SoundManager(smURL, smID) {
 
       if (sm2.useHTML5Audio) {
 
-        if (!sm2.php5 || !sm2.php5.canPlayType) {
+        if (!sm2.html5 || !sm2.html5.canPlayType) {
           sm2._wD('SoundManager: No HTML5 Audio() support detected.');
           sm2.hasHTML5 = false;
         }
@@ -4593,7 +4593,7 @@ function SoundManager(smURL, smID) {
 
       for (item in formats) {
         if (formats.hasOwnProperty(item)) {
-          if ((formats[item].required && !sm2.php5.canPlayType(formats[item].type)) || (sm2.preferFlash && (sm2.flash[item] || sm2.flash[formats[item].type]))) {
+          if ((formats[item].required && !sm2.html5.canPlayType(formats[item].type)) || (sm2.preferFlash && (sm2.flash[item] || sm2.flash[formats[item].type]))) {
             // flash may be required, or preferred for this format
             needsFlash = true;
           }
@@ -4607,9 +4607,9 @@ function SoundManager(smURL, smID) {
       needsFlash = false;
     }
 
-    sm2.php5Only = (sm2.hasHTML5 && sm2.useHTML5Audio && !needsFlash);
+    sm2.html5Only = (sm2.hasHTML5 && sm2.useHTML5Audio && !needsFlash);
 
-    return (!sm2.php5Only);
+    return (!sm2.html5Only);
 
   };
 
@@ -4671,11 +4671,11 @@ function SoundManager(smURL, smID) {
 
       oSound._hasTimer = true;
 
-      if (!mobileHTML5 && sm2.php5PollingInterval) {
+      if (!mobileHTML5 && sm2.html5PollingInterval) {
 
         if (h5IntervalTimer === null && h5TimerCount === 0) {
 
-          h5IntervalTimer = window.setInterval(timerExecute, sm2.php5PollingInterval);
+          h5IntervalTimer = window.setInterval(timerExecute, sm2.html5PollingInterval);
    
         }
 
@@ -4697,7 +4697,7 @@ function SoundManager(smURL, smID) {
 
       oSound._hasTimer = false;
 
-      if (!mobileHTML5 && sm2.php5PollingInterval) {
+      if (!mobileHTML5 && sm2.html5PollingInterval) {
 
         // interval will stop itself at next execution.
 
@@ -4771,11 +4771,11 @@ function SoundManager(smURL, smID) {
       if (aF.hasOwnProperty(item)) {
         if (item === 'mp3' || item === 'mp4') {
           sm2._wD(sm + ': Using flash fallback for ' + item + ' format');
-          sm2.php5[item] = false;
+          sm2.html5[item] = false;
           // assign result to related formats, too
           if (aF[item] && aF[item].related) {
             for (i = aF[item].related.length-1; i >= 0; i--) {
-              sm2.php5[aF[item].related[i]] = false;
+              sm2.html5[aF[item].related[i]] = false;
             }
           }
         }
@@ -4879,9 +4879,9 @@ function SoundManager(smURL, smID) {
 
       var options = [], title, str = [], delimiter = ' + ';
 
-      title = 'SoundManager ' + sm2.version + (!sm2.php5Only && sm2.useHTML5Audio ? (sm2.hasHTML5 ? ' + HTML5 audio' : ', no HTML5 audio support') : '');
+      title = 'SoundManager ' + sm2.version + (!sm2.html5Only && sm2.useHTML5Audio ? (sm2.hasHTML5 ? ' + HTML5 audio' : ', no HTML5 audio support') : '');
 
-      if (!sm2.php5Only) {
+      if (!sm2.html5Only) {
 
         if (sm2.preferFlash) {
           options.push('preferFlash');
@@ -4895,8 +4895,8 @@ function SoundManager(smURL, smID) {
           options.push('flashPollingInterval (' + sm2.flashPollingInterval + 'ms)');
         }
 
-        if (sm2.php5PollingInterval) {
-          options.push('html5PollingInterval (' + sm2.php5PollingInterval + 'ms)');
+        if (sm2.html5PollingInterval) {
+          options.push('html5PollingInterval (' + sm2.html5PollingInterval + 'ms)');
         }
 
         if (sm2.wmode) {
@@ -4913,8 +4913,8 @@ function SoundManager(smURL, smID) {
 
       } else {
 
-        if (sm2.php5PollingInterval) {
-          options.push('html5PollingInterval (' + sm2.php5PollingInterval + 'ms)');
+        if (sm2.html5PollingInterval) {
+          options.push('html5PollingInterval (' + sm2.html5PollingInterval + 'ms)');
         }
 
       }
@@ -4931,7 +4931,7 @@ function SoundManager(smURL, smID) {
 
     }
 
-    if (sm2.php5Only) {
+    if (sm2.html5Only) {
 
       // 100% HTML5 mode
       setVersionInfo();
@@ -4994,7 +4994,7 @@ function SoundManager(smURL, smID) {
       'title': swfTitle,
       'type': 'application/x-shockwave-flash',
       'wmode': sm2.wmode,
-      // http://help.adobe.com/en_US/as3/mobile/WS4bebcd66a74275c36cfb8137124318eebc6-7ffd.php
+      // http://help.adobe.com/en_US/as3/mobile/WS4bebcd66a74275c36cfb8137124318eebc6-7ffd.html
       'hasPriority': 'true'
     };
 
@@ -5131,7 +5131,7 @@ function SoundManager(smURL, smID) {
 
   initMovie = function() {
 
-    if (sm2.php5Only) {
+    if (sm2.html5Only) {
       createMovie();
       return false;
     }
@@ -5333,7 +5333,7 @@ function SoundManager(smURL, smID) {
     if (sm2.useHTML5Audio && sm2.hasHTML5) {
       for (item in sm2.audioFormats) {
         if (sm2.audioFormats.hasOwnProperty(item)) {
-          tests.push(item + ' = ' + sm2.php5[item] + (!sm2.php5[item] && hasFlash && sm2.flash[item] ? ' (using flash)' : (sm2.preferFlash && sm2.flash[item] && hasFlash ? ' (preferring flash)': (!sm2.php5[item] ? ' (' + (sm2.audioFormats[item].required ? 'required, ':'') + 'and no flash support)' : ''))));
+          tests.push(item + ' = ' + sm2.html5[item] + (!sm2.html5[item] && hasFlash && sm2.flash[item] ? ' (using flash)' : (sm2.preferFlash && sm2.flash[item] && hasFlash ? ' (preferring flash)': (!sm2.html5[item] ? ' (' + (sm2.audioFormats[item].required ? 'required, ':'') + 'and no flash support)' : ''))));
         }
       }
       sm2._wD('SoundManager 2 HTML5 support: ' + tests.join(', '), 1);
@@ -5349,7 +5349,7 @@ function SoundManager(smURL, smID) {
       return false;
     }
 
-    if (sm2.php5Only) {
+    if (sm2.html5Only) {
       // all good.
       _wDS('sm2Loaded');
       didInit = true;
@@ -5448,7 +5448,7 @@ function SoundManager(smURL, smID) {
       event.remove(window, 'load', sm2.beginDelayedInit);
     }
 
-    if (sm2.php5Only) {
+    if (sm2.html5Only) {
       if (!didInit) {
         // we don't need no steenking flash!
         cleanup();
@@ -5478,7 +5478,7 @@ function SoundManager(smURL, smID) {
       sm2.enabled = true;
       debugTS('jstoflash', true);
 
-      if (!sm2.php5Only) {
+      if (!sm2.html5Only) {
         // prevent browser from showing cached page state (or rather, restoring "suspended" page state) via back button, because flash may be dead
         // http://www.webkit.org/blog/516/webkit-page-cache-ii-the-unload-event/
         event.add(window, 'unload', doNothing);
@@ -5567,8 +5567,8 @@ function SoundManager(smURL, smID) {
     }
 
     testHTML5();
-    sm2.php5.usingFlash = featureCheck();
-    needsFlash = sm2.php5.usingFlash;
+    sm2.html5.usingFlash = featureCheck();
+    needsFlash = sm2.html5.usingFlash;
 
     if (!hasFlash && needsFlash) {
       messages.push(strings.needFlash);

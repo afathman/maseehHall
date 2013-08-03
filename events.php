@@ -2,6 +2,7 @@
 <!--[if lte IE 8]><html class="ie8 no-js" lang="en"><![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie no-js" lang="en"><!--<![endif]-->
 <head>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Events</title>
@@ -55,6 +56,7 @@
 	<!-- Countdown date updating -->
 	<script src="js/update_date.js"></script>
 	<script src="js/countdown.js"></script>
+    	<?php include "include/colorbox.php"; ?>
 </head>
 <body class="page-events">
 <!--[if lte IE 7]>
@@ -149,7 +151,7 @@
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-moving.php" title="">
 				<span class="date">08/24-08/29</span>
 				 
 				<span class="title">Help Moving In <span class="details"> Maseeh Lobby</span></span>
@@ -165,7 +167,7 @@
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-mafia.php" title="">
 				<span class="day">Sat</span> <span class="date">08/24</span> <span class="time">7PM-12AM</span>
 				 
 				<span class="title">Mafia <span class="details">Courtyard</span></span>
@@ -181,7 +183,7 @@
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-smore.php" title="">
 				<span class="day">Sun</span><span class="date">08/25</span> <span class="time">8PM-11PM</span>
 				 
 				<span class="title">S’mores in the Courtyard <span class="details">Maseeh Courtyard</span></span>
@@ -191,7 +193,7 @@
 		<!-- /event -->
 		<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-games.php" title="">
 				<span class="day">Sun</span> <span class="date">08/25</span> <span class="time">8PM-2AM</span>
 				 
 				<span class="title">Board Games with Maseeh <span class="details">Senior Lecture Room</span></span>
@@ -201,7 +203,7 @@
 		<!-- /event -->
 		<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-disney.php" title="">
 				<span class="day">Sun</span> <span class="date">08/25</span> <span class="time">8PM-2AM</span>
 				 
 				<span class="title">Disney Movie Night! <span class="details">Media Room</span></span>
@@ -217,7 +219,7 @@
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-castle.php" title="">
 				<span class="day">Mon</span> <span class="date">08/26</span> <span class="time">4PM-7PM</span>
 				 
 				<span class="title">Castle Battle CTF! <span class="details">Maseeh Lobby</span></span>
@@ -227,7 +229,7 @@
 		<!-- /event -->
 		<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-scary.php" title="">
 				<span class="day">Mon</span> <span class="date">08/26</span> <span class="time">10PM-2AM</span>
 				 
 				<span class="title">Scary Movie Madness <span class="details">Media Room</span></span>
@@ -243,7 +245,7 @@
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-water.php" title="">
 				<span class="day">Tue</span><span class="date">08/27</span> <span class="time">12PM-4PM</span>
 				 
 				<span class="title">Epic Water War Training <span class="details">Courtyard</span></span>
@@ -253,7 +255,7 @@
 		<!-- /event -->
 		<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-mex.php" title="">
 				<span class="day">Tue</span> <span class="date">08/27</span> <span class="time">4:30PM-7PM</span>
 				 
 				<span class="title">Maseeh Exploration (MEX) <span class="details">Floor Lounges</span></span>
@@ -263,7 +265,7 @@
 		<!-- /event -->
 			<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-dance.php" title="">
 				<span class="day">Tue</span> <span class="date">08/27</span> <span class="time">8:30PM-1AM</span>
 				 
 				<span class="title">Dance Competition! <span class="details">Game Room</span></span>
@@ -279,7 +281,7 @@
 	<ul class="none events-list">
 			<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-disney2.php" title="">
 				<span class="day">Wed</span> <span class="date">08/28</span> <span class="time">8:00PM-2AM</span>
 				 
 				<span class="title">Disney Movie Night Round 2 <span class="details">Media Room</span></span>
@@ -289,7 +291,7 @@
 		<!-- /event -->
 			<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-ultimate.php" title="">
 				<span class="day">Wed</span> <span class="date">08/28</span> <span class="time">10PM-12AM</span>
 				 
 				<span class="title">Ultimate Frisbee <span class="details">Courtyard</span></span>
@@ -305,7 +307,7 @@
 	<ul class="none events-list">
 			<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-carnival.php" title="">
 				<span class="day">Thu</span> <span class="date">08/29</span> <span class="time">12PM-5PM</span>
 				 
 				<span class="title">Carnival <span class="details">Courtyard</span></span>
@@ -315,7 +317,7 @@
 		<!-- /event -->
 				<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-balloon.php" title="">
 				<span class="day">Thu</span> <span class="date">08/29</span> <span class="time">3PM-5PM</span>
 				 
 				<span class="title">Balloon Dart Painting <span class="details">Courtyard</span></span>
@@ -325,7 +327,7 @@
 		<!-- /event -->
 				<!-- event -->
 		<li>
-			<a href="event.php">
+			<a class='ajax' href="event-dessert.php" title="">
 				<span class="day">Thu</span> <span class="date">08/29</span> <span class="time">7PM-10PM</span>
 				 
 				<span class="title">Dessert Around Town! <span class="details">Maseeh Lobby</span></span>

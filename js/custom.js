@@ -324,7 +324,7 @@ jQuery(document).ready(function($) {
 	                case "days":
 	                case "weeks":
 	                case "daysLeft":
-	                    $this.find('.' + event.type).php(event.value);
+	                    $this.find('.' + event.type).html(event.value);
 	                    break;
 
 	                case "finished":
@@ -651,7 +651,7 @@ jQuery(document).ready(function($) {
 			$stats_length = $stats_names.length;
 
 			// Clear list
-			$stats.php('');
+			$stats.html('');
 
 			// Init
 			display_stats();
@@ -848,7 +848,7 @@ jQuery(document).ready(function($) {
 
 			if($count == undefined || $count == '') $count = 1;
 
-			$this.php('<img src="img/loader.gif" height="11" width="16" alt="Loading..." />');
+			$this.html('<img src="img/loader.gif" height="11" width="16" alt="Loading..." />');
 
 			$.ajax({
 				url: $php_url,
@@ -857,11 +857,11 @@ jQuery(document).ready(function($) {
 				type: 'GET',
 				error:
 					function(xhr, status, error) {
-						$this.php('An error occured: ' + error );
+						$this.html('An error occured: ' + error );
 					},
 				success:
 					function(data, status, xhr) {
-						$this.php(data).hide();
+						$this.html(data).hide();
 						$('li:nth-child('+$count+') ~ li', $this).remove();
 						$this.show();
 					}
@@ -1034,12 +1034,12 @@ jQuery(document).ready(function($) {
 		if($gmap.length) {
 
 			$gmap.gMap({
-				address: '305 Memorial Dr., Cambridge, MA 02139',
+				address: 'Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia',
 				zoom: 16,
 				zoomControl: true,
 				scrollwheel: false,
 				markers: [
-					{ 'address' : '305 Memorial Dr., Cambridge, MA 02139' }
+					{ 'address' : 'Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia' }
 				]
 			});
 
@@ -1062,13 +1062,13 @@ jQuery(document).ready(function($) {
 		// Submit click event
 		$form.on('click', 'input[type=submit]', function(e){
 
-			$ajax_message.hide().php($ajax_loader).show();
+			$ajax_message.hide().html($ajax_loader).show();
 			
 			// Ajax request
 			$.post('plugins/contact-form.php', $form.serialize(), function(data) {
 
 				// Show ajax-message
-				$ajax_message.php(data);
+				$ajax_message.html(data);
 
 				// If the message was sent, clear form fields
 				if (data.indexOf("success") != -1) {

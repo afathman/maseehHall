@@ -155,7 +155,7 @@
 				</a>
 			</div>
 			<div class="masonry width-1-2 height-1-2">
-				<a href="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F37028581&amp;auto_play=false&amp;show_artwork=true&amp;color=fa4c29" class="thumb-icon mediabox tip" data-width="auto" data-height="200" data-tip-title="#Soundcloud podcast (56 min)" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+				<a href="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F37028581&amp;auto_play=false&amp;show_artwork=true&amp;color=1589FF" class="thumb-icon mediabox tip" data-width="auto" data-height="200" data-tip-title="#Soundcloud podcast (56 min)" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
 					<img src="placeholders/gallery-01.jpg" alt="" title="" />
 					<span class="icon soundcloud"></span>
 				</a>

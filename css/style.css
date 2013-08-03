@@ -1775,7 +1775,7 @@ ul.events-list-index {
 				transition: all .4s ease;
 		}
 		.events-list-index li a:hover .date { color: #fff; }
-		.events-list-index li a:hover .title { color: #fa4c29; }
+		.events-list-index li a:hover .title { color: #1589FF; }
 		.events-list-index li a:hover .cover { opacity: 1; filter:alpha(opacity=100);}
 
 /* Plus Button */
