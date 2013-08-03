@@ -62,40 +62,40 @@
 <header id="header">
     <div class="container">
     	<!-- logo -->
-    	<a href="index.html" id="logo">
+    	<a href="index.php" id="logo">
     	    <img src="img/logo.png" alt="Logo">
     	</a>
     	<!-- /logo -->	<!-- nav -->
 	<nav id="main-nav">
 		<ul>
 			<li>
-				<a href="index.html">Home</a>
+				<a href="index.php">Home</a>
 			</li>
 			<li class="current">
-				<a href="about.html">About</a>
+				<a href="about.php">About</a>
                 <ul>
                 <li> 
-                	<a href="about.html">About Maseeh</a>
+                	<a href="about.php">About Maseeh</a>
                 </li>
                 <li>
-                   <a href="staff.html">Staff</a>
+                   <a href="staff.php">Staff</a>
                 </li>
                 <li>
-                	<a href="prospective.html">Prospective Students</a>
+                	<a href="prospective.php">Prospective Students</a>
                 </li>
                 
               </ul>
 			</li>
 			<li>
-				<a href="events.html">Events</a>
+				<a href="events.php">Events</a>
 			</li>
 			<li>
-				<a href="gallery.html">Gallery</a>
+				<a href="gallery.php">Gallery</a>
 			</li>
-<li> <a href="residents.html">Resident Portal</a>
+<li> <a href="residents.php">Resident Portal</a>
 </li>
 			<li>
-				<a href="contact.html">Contact</a>
+				<a href="contact.php">Contact</a>
 			</li>
 		</ul>
 	</nav>
@@ -403,10 +403,10 @@ I enjoy blurring disciplinary boundaries, am fascinated by the inner workings of
 			<!-- footer-nav -->
 				<nav id="footer-nav" class="clearfix">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-						<li><a href="residents.html">Residents</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+						<li><a href="residents.php">Residents</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</nav>
 		            <!-- /footer-nav -->

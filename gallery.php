@@ -53,7 +53,7 @@
 	<!-- custom scripts -->
 	<script src="js/custom.js"></script>
 </head>
-<body class="page-gallery-album">
+<body class="page-gallery">
 <!--[if lte IE 7]>
    <div id="ie-message"><p>You are using Internet Explorer 7.0 or older to view this site. Your browser is an ten year old browser which does not display modern web sites properly. Please upgrade to a newer browser to fully enjoy the web... I mean this is MIT. <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Upgrade your browser</a></p></div>
    <a href="http://google.com/chrome">Get a legit browser (Google Chrome)</a></p></div>
@@ -62,7 +62,7 @@
 <header id="header">
     <div class="container">
     	<!-- logo -->
-    	<a href="index.html" id="logo">
+    	<a href="index.php" id="logo">
     	    <img src="img/logo.png" alt="Logo">
     	</a>
     	<!-- /logo -->
@@ -70,196 +70,133 @@
 	<nav id="main-nav">
 		<ul>
 			<li>
-				<a href="index.html">Home</a>
+				<a href="index.php">Home</a>
 			</li>			<li>
-				<a href="about.html">About</a>
+				<a href="about.php">About</a>
                 <ul>
                 <li> 
-                	<a href="about.html">About Maseeh</a>
+                	<a href="about.php">About Maseeh</a>
                 </li>
                 <li>
-                   <a href="staff.html">Staff</a>
+                   <a href="staff.php">Staff</a>
                 </li>
                 <li>
-                	<a href="prospective.html">Prospective Students</a>
+                	<a href="prospective.php">Prospective Students</a>
                 </li>
               </ul>
 			</li>
 			<li>
-				<a href="events.html">Events</a>
+				<a href="events.php">Events</a>
 			</li>
 			<li class="current">
-				<a href="gallery.html">Gallery</a>
+				<a href="gallery.php">Gallery</a>
 			</li>
-<li> <a href="residents.html">Resident Portal</a>
+<li> <a href="residents.php">Resident Portal</a>
 </li>
 			<li>
-				<a href="contact.html">Contact</a>
+				<a href="contact.php">Contact</a>
 			</li>
 		</ul>
 	</nav>
 	<!-- /nav -->
     </div>
 </header>
-<!-- /header -->
-<!-- page header -->
+<!-- /header --><!-- page header -->
 <section id="page-header">
 	<div class="container clearfix">
 		<hgroup>
 			<h1 class="page-title">Gallery</h1>
-			<h2 class="page-subtitle">Bass Festival 2012.</h2>
+			<h2 class="page-subtitle">A few photos from Maseeh</h2>
 		</hgroup>
 		<!-- share it -->
 		<div id="share-wrap">
-			<div id="share" data-url="gallery-album.html" data-text="Gallery" data-title="share"></div>
+			<div id="share" data-url="gallery.php" data-text="Gallery" data-title="share"></div>
 		</div>
 		<!-- /share it -->
 		<hr>
 	</div>
 </section>
 <!-- /page header -->
-<section id="main-content" class="container clearfix">
+<section id="main-content" class="container">
 	<!-- content -->
-	<section class="content">
+	<section class="content clearfix">
 	<!-- masonry boxes -->
 		<div class="masonry-wrap clearfix">
 			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-02.jpg" class="thumb-icon imagebox" data-group="group1">
+				<a href="#" class="thumb-slide tip" data-tip-title="#Bass Fetival 07/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+					<span class="thumbs-wrap">
 						<img src="placeholders/gallery-02.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-03.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-03.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-04.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-04.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-05.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-06.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-07.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-07.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-02.jpg" class="thumb-icon imagebox" data-group="group1">
 						<img src="placeholders/gallery-02.jpg" alt="" title="" />
-						<span class="icon view"></span>
 					</span>
 				</a>
 			</div>
 			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-03.jpg" class="thumb-icon imagebox" data-group="group1">
+				<a href="#" class="thumb-slide tip" data-tip-title="#Glitch Wars 08/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+					<span class="thumbs-wrap">
 						<img src="placeholders/gallery-03.jpg" alt="" title="" />
-						<span class="icon view"></span>
+						<img src="placeholders/gallery-03.jpg" alt="" title="" />
 					</span>
 				</a>
 			</div>
 			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-04.jpg" class="thumb-icon imagebox" data-group="group1">
+				<a href="#" class="thumb-slide tip" data-tip-title="#Explosions 05/2012" data-tip-desc="Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+					<span class="thumbs-wrap">
 						<img src="placeholders/gallery-04.jpg" alt="" title="" />
-						<span class="icon view"></span>
+						<img src="placeholders/gallery-04.jpg" alt="" title="" />
 					</span>
 				</a>
 			</div>
 			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-05.jpg" class="thumb-icon imagebox" data-group="group1">
+				<a href="#" class="thumb-slide tip" data-tip-title="#Glitch Wars 08/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.">
+					<span class="thumbs-wrap">
+						<img src="placeholders/gallery-05.jpg" alt="" title="" />
+						<img src="placeholders/gallery-05.jpg" alt="" title="" />
+					</span>
+				</a>
+			</div>
+			<div class="masonry width-1-2 height-1-2">
+				<a href="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F37028581&amp;auto_play=false&amp;show_artwork=true&amp;color=fa4c29" class="thumb-icon mediabox tip" data-width="auto" data-height="200" data-tip-title="#Soundcloud podcast (56 min)" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+					<img src="placeholders/gallery-01.jpg" alt="" title="" />
+					<span class="icon soundcloud"></span>
+				</a>
+			</div>
+			<div class="masonry width-1-4 height-1-4">
+				<a href="#" class="thumb-slide tip" data-tip-title="#Global Underground 05/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+					<span class="thumbs-wrap">
 						<img src="placeholders/gallery-06.jpg" alt="" title="" />
-						<span class="icon view"></span>
+						<img src="placeholders/gallery-06.jpg" alt="" title="" />
 					</span>
 				</a>
 			</div>
 			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-07.jpg" class="thumb-icon imagebox" data-group="group1">
+				<a href="#" class="thumb-slide tip" data-tip-title="#ADG3 Studios - Busted Chump 04/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+					<span class="thumbs-wrap">
 						<img src="placeholders/gallery-07.jpg" alt="" title="" />
-						<span class="icon view"></span>
+						<img src="placeholders/gallery-07.jpg" alt="" title="" />
 					</span>
 				</a>
 			</div>
+			<div class="masonry width-3-4 height-1-2 media">
+				<!-- nivo slider -->
+				<div class="nivo-slider">
+					<img src="placeholders/gallery-08.jpg" alt="" title="" />
+					<img src="placeholders/gallery-09.jpg" alt="" title="" />
+		        </div>
+				<!-- /nivo slider -->
+			</div>
 			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-02.jpg" class="thumb-icon imagebox" data-group="group1">
+				<a href="#" class="thumb-slide tip" data-tip-title="#Bass Monsterz 03/2012" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+					<span class="thumbs-wrap">
 						<img src="placeholders/gallery-02.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-03.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-03.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-04.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-04.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-05.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-06.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-07.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-07.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-02.jpg" class="thumb-icon imagebox" data-group="group1">
 						<img src="placeholders/gallery-02.jpg" alt="" title="" />
-						<span class="icon view"></span>
 					</span>
 				</a>
 			</div>
 			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-03.jpg" class="thumb-icon imagebox" data-group="group1">
+				<a href="#" class="thumb-slide tip" data-tip-title="#Drum!Bass! 12/2011" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+					<span class="thumbs-wrap">
 						<img src="placeholders/gallery-03.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-04.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-04.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-05.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-06.jpg" alt="" title="" />
-						<span class="icon view"></span>
-					</span>
-				</a>
-			</div>
-			<div class="masonry width-1-4 height-1-4">
-				<a href="placeholders/gallery-07.jpg" class="thumb-icon imagebox" data-group="group1">
-						<img src="placeholders/gallery-07.jpg" alt="" title="" />
-						<span class="icon view"></span>
+						<img src="placeholders/gallery-03.jpg" alt="" title="" />
 					</span>
 				</a>
 			</div>
@@ -267,6 +204,31 @@
 		<!-- /masonry boxes -->
 	</section>
 	<!-- /content -->
+	<!-- pagination -->
+	<ul id="pagination" class="none">
+		<li>
+			<a href="#" class="nav-prev"></a>
+		</li>
+		<li>
+			<a href="#">1</a>
+		</li>
+		<li>
+			<a href="#">2</a>
+		</li>
+		<li>
+			<span class="active">3</span>
+		</li>
+		<li>
+			<a href="#">4</a>
+		</li>
+		<li>
+			<a href="#">5</a>
+		</li>
+		<li>
+			<a href="#" class="nav-next"></a>
+		</li>
+	</ul>
+	<!-- /pagination -->
 </section><!-- footer-top -->
 <section id="footer-top">
 	<div class="container clearfix">
@@ -295,10 +257,10 @@
 			<!-- footer-nav -->
 				<nav id="footer-nav" class="clearfix">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-						<li><a href="residents.html">Residents</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+						<li><a href="residents.php">Residents</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</nav>
 		            <!-- /footer-nav --> <div class="copyright">

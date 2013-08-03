@@ -99,7 +99,7 @@
 										versionIncrement = parseFloat(version[2] || '0');
 
 									if (versionTop==1 && versionMinor < 7) {
-										container.html('<div style="text-align:center; padding:40px 0px; font-size:20px; color:#992222;"> The Current Version of jQuery:'+version+' <br>Please update your jQuery Version to min. 1.7 in Case you wish to use the Revolution Slider Plugin</div>');
+										container.php('<div style="text-align:center; padding:40px 0px; font-size:20px; color:#992222;"> The Current Version of jQuery:'+version+' <br>Please update your jQuery Version to min. 1.7 in Case you wish to use the Revolution Slider Plugin</div>');
 									}
 
 									// Delegate .transition() calls to .animate()
@@ -1440,7 +1440,7 @@
 			if (opt.ie9 && (nexttrans==3)) nexttrans = 4;
 
 
-			//$('body').find('.debug').html("Transition:"+nextli.data('transition')+"  id:"+nexttrans);
+			//$('body').find('.debug').php("Transition:"+nextli.data('transition')+"  id:"+nexttrans);
 
 			// DEFINE THE MASTERSPEED FOR THE SLIDE //
 			var masterspeed=300;
@@ -2296,7 +2296,7 @@
 						actli.find('.tp-half-one').transition({opacity:1, scale:sc1, rotate:ro1,y:(0-opt.height/1.4)+"px"},800,'in');
 						actli.find('.tp-half-two').transition({opacity:1, scale:sc2, rotate:ro2,y:(0+opt.height/1.4)+"px"},800,'in');
 
-						if (actli.html()!=null) nextli.transition({scale:0.8,x:opt.width*0.1, y:opt.height*0.1, rotate:ro1},0).transition({rotate:0, scale:1,x:0,y:0},600,'snap');
+						if (actli.php()!=null) nextli.transition({scale:0.8,x:opt.width*0.1, y:opt.height*0.1, rotate:ro1},0).transition({rotate:0, scale:1,x:0,y:0},600,'snap');
 					}
 					nextsh.find('.defaultimg').css({'opacity':1});
 					setTimeout(function() {
@@ -2664,12 +2664,12 @@
 
 						var froogaloop = $f(player_id);
 
-						//$('#debug').html($('#debug').html()+" <br>Frooga Func"+Math.round(Math.random()*100));
+						//$('#debug').php($('#debug').php()+" <br>Frooga Func"+Math.round(Math.random()*100));
 
 						froogaloop.addEvent('ready', function(data) {
-								//$('#debug').html($('#debug').html()+" <br>Ready"+Math.round(Math.random()*100));
+								//$('#debug').php($('#debug').php()+" <br>Ready"+Math.round(Math.random()*100));
 								froogaloop.addEvent('play', function(data) {
-									//$('#debug').html($('#debug').html()+" <br>Play"+Math.round(Math.random()*100));
+									//$('#debug').php($('#debug').php()+" <br>Play"+Math.round(Math.random()*100));
 
 									var bt = $('body').find('.tp-bannertimer');
 									var opt = bt.data('opt');

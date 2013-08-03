@@ -4,9 +4,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Contact</title>
+	<title>Restricted Access</title>
 	<!-- <meta name="robots" content="index,follow"> -->
-	<meta name="description" content="Get in touch!">
+	<meta name="description" content="Error 404 page doesn't exist!">
 	<meta name="keywords" content=""/>
 	<meta name="author" content="Austin Fathman and William Qian">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -53,16 +53,16 @@
 	<!-- custom scripts -->
 	<script src="js/custom.js"></script>
 </head>
-<body class="page-contact">
+<body class="page-404">
 <!--[if lte IE 7]>
    <div id="ie-message"><p>You are using Internet Explorer 7.0 or older to view this site. Your browser is an ten year old browser which does not display modern web sites properly. Please upgrade to a newer browser to fully enjoy the web... I mean this is MIT. <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Upgrade your browser</a></p></div>
    <a href="http://google.com/chrome">Get a legit browser (Google Chrome)</a></p></div>
 <![endif]-->
 <!-- header -->
 <header id="header">
-    <div class="container">
+    <div class="container" style="height:auto;">
     	<!-- logo -->
-    	<a href="index.html" id="logo">
+    	<a href="#" id="logo">
     	    <img src="img/logo.png" alt="Logo">
     	</a>
     	<!-- /logo -->
@@ -70,31 +70,32 @@
 	<nav id="main-nav">
 		<ul>
 			<li>
-				<a href="index.html">Home</a>
-			</li>			<li>
-				<a href="about.html">About</a>
+				<a href="index.php">Home</a>
+			</li>
+				<li>
+				<a href="about.php">About</a>
                 <ul>
                 <li> 
-                	<a href="about.html">About Maseeh</a>
+                	<a href="about.php">About Maseeh</a>
                 </li>
                 <li>
-                   <a href="staff.html">Staff</a>
+                   <a href="staff.php">Staff</a>
                 </li>
                 <li>
-                	<a href="prospective.html">Prospective Students</a>
+                	<a href="prospective.php">Prospective Students</a>
                 </li>
               </ul>
 			</li>
 			<li>
-				<a href="events.html">Events</a>
+				<a href="events.php">Events</a>
 			</li>
 			<li>
-				<a href="gallery.html">Gallery</a>
+				<a href="gallery.php">Gallery</a>
 			</li>
-<li> <a href="residents.html">Resident Portal</a>
+<li> <a href="residents.php">Resident Portal</a>
 </li>
-			<li class="current">
-				<a href="contact.html">Contact</a>
+			<li>
+				<a href="contact.php">Contact</a>
 			</li>
 		</ul>
 	</nav>
@@ -102,87 +103,20 @@
     </div>
 </header>
 <!-- /header -->
-<!-- page header -->
-<section id="page-header">
-	<div class="container clearfix">
-		<hgroup>
-			<h1 class="page-title">Contact</h1>
-			<h2 class="page-subtitle">Get in touch with us.</h2>
-		</hgroup>
-		<!-- share it -->
-		<div id="share-wrap">
-			<div id="share" data-url="contact.html" data-text="Contact" data-title="share"></div>
-		</div>
-		<!-- /share it -->
-		<hr>
-	</div>
-</section>
-<!-- /page header -->
 <section id="main-content" class="container clearfix">
-	<!-- boxes -->
-	<section class="content">
-		<!-- left -->
-		<article class="col-1-3">
-			<h2 class="heading-icon contact">Contact<br><span class="color">let's keep in touch.</span></h2>
-			<ul class="details none">
-				<li>
-					<span>Address</span>
-					<div>305 Memorial Dr., Cambridge, MA 02139</div>
-				</li>
-				<li>
-					<span>Email</span>
-					<div><a href="#">maseeh@mit.edu</a></div>
-				</li>
-				<li>
-					<span>Tel.</span>
-					<div> (617) 324-4935</div>
-				</li>
-			</ul>
+	<!-- 404 content -->
+	<section class="content content-404">
+		<article>
+			<div id="error-404">
+				<span data-number="401">401</span>
+			</div>
+				<h1 class="large-heading text-center">Uh oh. You don't have access here.</h1>
+                <h2 class="light-heading text-center">If you believe this page should exist, please contact <a href="mailto:maseeh@mit.edu">maseeh@mit.edu</a>.</h2>
+                <h2 class="light-heading text-center">If you do not have your certificates installed, please go to <a href="https://ca.mit.edu/">https://ca.mit.edu/</a></h2>
 		</article>
-		<!-- /left -->
-		<!-- right -->
-		<article class="col-2-3 last">
-			<form action="plugins/contact-form.php" method="post" class="form contact-form">
-			
-				<p class="input">
-					<label for="contact-name"><strong>Name</strong> (required)</label>
-					<input type="text" name="name" value="" id="contact-name" required>
-				</p>
-
-				<div class="input">
-					<label for="contact-email"><strong>Email</strong> (required)</label>
-					<input type="email" name="email" value="" id="contact-email" required>
-				</div>
-				
-				<p class="input">
-					<label for="contact-subject"><strong>Subject</strong></label>
-					<input type="text" name="subject" value="" id="contact-subject">
-				</p>
-
-				<p class="textarea">
-					<label for="contact-message"><strong>Your Message</strong> (required)</label>
-					<textarea name="message" id="contact-message" cols="88" rows="6" required></textarea>
-				</p>
-			
-				<div class="hidden">
-					<label for="contact-spam-check">Do not fill out this field this is spam check.</label>
-					<input name="anty_spam" type="text" value="" id="contact-spam-check" />
-				</div>
-
-				<input type="submit" value="Submit Message">
-	
-				<div class="clear"></div>
-			</form>
-		</article>
-		<!-- /right -->
 	</section>
-	<!-- /boxes -->
-</section>
-<!-- Google Maps -->
-<section id="gmap">
-	<p class="container">Please enable your JavaScript in your browser, to view our location.</p>
-</section>
-<!-- /Google Maps --><!-- footer-top -->
+	<!-- /404 content -->
+</section><!-- footer-top -->
 <section id="footer-top">
 	<div class="container clearfix">
 		<div class="col-2-3">	<ul class="contact">
@@ -210,10 +144,10 @@
 			<!-- footer-nav -->
 				<nav id="footer-nav" class="clearfix">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-						<li><a href="residents.html">Residents</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+						<li><a href="residents.php">Residents</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</nav>
 		            <!-- /footer-nav --> <div class="copyright">

@@ -324,7 +324,7 @@ jQuery(document).ready(function($) {
 	                case "days":
 	                case "weeks":
 	                case "daysLeft":
-	                    $this.find('.' + event.type).html(event.value);
+	                    $this.find('.' + event.type).php(event.value);
 	                    break;
 
 	                case "finished":
@@ -651,7 +651,7 @@ jQuery(document).ready(function($) {
 			$stats_length = $stats_names.length;
 
 			// Clear list
-			$stats.html('');
+			$stats.php('');
 
 			// Init
 			display_stats();
@@ -848,7 +848,7 @@ jQuery(document).ready(function($) {
 
 			if($count == undefined || $count == '') $count = 1;
 
-			$this.html('<img src="img/loader.gif" height="11" width="16" alt="Loading..." />');
+			$this.php('<img src="img/loader.gif" height="11" width="16" alt="Loading..." />');
 
 			$.ajax({
 				url: $php_url,
@@ -857,11 +857,11 @@ jQuery(document).ready(function($) {
 				type: 'GET',
 				error:
 					function(xhr, status, error) {
-						$this.html('An error occured: ' + error );
+						$this.php('An error occured: ' + error );
 					},
 				success:
 					function(data, status, xhr) {
-						$this.html(data).hide();
+						$this.php(data).hide();
 						$('li:nth-child('+$count+') ~ li', $this).remove();
 						$this.show();
 					}
@@ -1062,13 +1062,13 @@ jQuery(document).ready(function($) {
 		// Submit click event
 		$form.on('click', 'input[type=submit]', function(e){
 
-			$ajax_message.hide().html($ajax_loader).show();
+			$ajax_message.hide().php($ajax_loader).show();
 			
 			// Ajax request
 			$.post('plugins/contact-form.php', $form.serialize(), function(data) {
 
 				// Show ajax-message
-				$ajax_message.html(data);
+				$ajax_message.php(data);
 
 				// If the message was sent, clear form fields
 				if (data.indexOf("success") != -1) {

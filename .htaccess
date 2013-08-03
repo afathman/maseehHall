@@ -1,2 +1,2 @@
-ErrorDocument 404 /maseeh/404.html
-ErrorDocument 401 /maseeh/401.html
+ErrorDocument 404 /maseeh/404.php
+ErrorDocument 401 /maseeh/401.php

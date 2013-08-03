@@ -65,7 +65,7 @@
 <header id="header">
     <div class="container">
     	<!-- logo -->
-    	<a href="index.html" id="logo">
+    	<a href="index.php" id="logo">
     	    <img src="img/logo.png" alt="Logo">
     	</a>
     	<!-- /logo -->
@@ -73,31 +73,31 @@
 	<nav id="main-nav">
 		<ul>
 			<li>
-				<a href="index.html">Home</a>
+				<a href="index.php">Home</a>
 			</li>			<li>
-				<a href="about.html">About</a>
+				<a href="about.php">About</a>
                 <ul>
                 <li> 
-                	<a href="about.html">About Maseeh</a>
+                	<a href="about.php">About Maseeh</a>
                 </li>
                 <li>
-                   <a href="staff.html">Staff</a>
+                   <a href="staff.php">Staff</a>
                 </li>
                 <li>
-                	<a href="prospective.html">Prospective Students</a>
+                	<a href="prospective.php">Prospective Students</a>
                 </li>
               </ul>
 			</li>
 			<li class="current">
-				<a href="events.html">Events</a>
+				<a href="events.php">Events</a>
 			</li>
 			<li>
-				<a href="gallery.html">Gallery</a>
+				<a href="gallery.php">Gallery</a>
 			</li>
-<li> <a href="residents.html">Resident Portal</a>
+<li> <a href="residents.php">Resident Portal</a>
 </li>
 			<li>
-				<a href="contact.html">Contact</a>
+				<a href="contact.php">Contact</a>
 			</li>
 		</ul>
 	</nav>
@@ -114,7 +114,7 @@
 		</hgroup>
 		<!-- share it -->
 		<div id="share-wrap">
-			<div id="share" data-url="events.html" data-text="Events" data-title="share"></div>
+			<div id="share" data-url="events.php" data-text="Events" data-title="share"></div>
 		</div>
 		<!-- /share it -->
 		<hr>
@@ -149,7 +149,7 @@
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="date">08/24-08/29</span>
 				 
 				<span class="title">Help Moving In <span class="details"> Maseeh Lobby</span></span>
@@ -165,7 +165,7 @@
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Sat</span> <span class="date">08/24</span> <span class="time">7PM-12AM</span>
 				 
 				<span class="title">Mafia <span class="details">Courtyard</span></span>
@@ -181,7 +181,7 @@
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Sun</span><span class="date">08/25</span> <span class="time">8PM-11PM</span>
 				 
 				<span class="title">S’mores in the Courtyard <span class="details">Maseeh Courtyard</span></span>
@@ -191,7 +191,7 @@
 		<!-- /event -->
 		<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Sun</span> <span class="date">08/25</span> <span class="time">8PM-2AM</span>
 				 
 				<span class="title">Board Games with Maseeh <span class="details">Senior Lecture Room</span></span>
@@ -201,7 +201,7 @@
 		<!-- /event -->
 		<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Sun</span> <span class="date">08/25</span> <span class="time">8PM-2AM</span>
 				 
 				<span class="title">Disney Movie Night! <span class="details">Media Room</span></span>
@@ -217,7 +217,7 @@
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Mon</span> <span class="date">08/26</span> <span class="time">4PM-7PM</span>
 				 
 				<span class="title">Castle Battle CTF! <span class="details">Maseeh Lobby</span></span>
@@ -227,7 +227,7 @@
 		<!-- /event -->
 		<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Mon</span> <span class="date">08/26</span> <span class="time">10PM-2AM</span>
 				 
 				<span class="title">Scary Movie Madness <span class="details">Media Room</span></span>
@@ -243,7 +243,7 @@
 	<ul class="none events-list">
 		<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Tue</span><span class="date">08/27</span> <span class="time">12PM-4PM</span>
 				 
 				<span class="title">Epic Water War Training <span class="details">Courtyard</span></span>
@@ -253,7 +253,7 @@
 		<!-- /event -->
 		<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Tue</span> <span class="date">08/27</span> <span class="time">4:30PM-7PM</span>
 				 
 				<span class="title">Maseeh Exploration (MEX) <span class="details">Floor Lounges</span></span>
@@ -263,7 +263,7 @@
 		<!-- /event -->
 			<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Tue</span> <span class="date">08/27</span> <span class="time">8:30PM-1AM</span>
 				 
 				<span class="title">Dance Competition! <span class="details">Game Room</span></span>
@@ -279,7 +279,7 @@
 	<ul class="none events-list">
 			<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Wed</span> <span class="date">08/28</span> <span class="time">8:00PM-2AM</span>
 				 
 				<span class="title">Disney Movie Night Round 2 <span class="details">Media Room</span></span>
@@ -289,7 +289,7 @@
 		<!-- /event -->
 			<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Wed</span> <span class="date">08/28</span> <span class="time">10PM-12AM</span>
 				 
 				<span class="title">Ultimate Frisbee <span class="details">Courtyard</span></span>
@@ -305,7 +305,7 @@
 	<ul class="none events-list">
 			<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Thu</span> <span class="date">08/29</span> <span class="time">12PM-5PM</span>
 				 
 				<span class="title">Carnival <span class="details">Courtyard</span></span>
@@ -315,7 +315,7 @@
 		<!-- /event -->
 				<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Thu</span> <span class="date">08/29</span> <span class="time">3PM-5PM</span>
 				 
 				<span class="title">Balloon Dart Painting <span class="details">Courtyard</span></span>
@@ -325,7 +325,7 @@
 		<!-- /event -->
 				<!-- event -->
 		<li>
-			<a href="event.html">
+			<a href="event.php">
 				<span class="day">Thu</span> <span class="date">08/29</span> <span class="time">7PM-10PM</span>
 				 
 				<span class="title">Dessert Around Town! <span class="details">Maseeh Lobby</span></span>
@@ -364,10 +364,10 @@
 			<!-- footer-nav -->
 				<nav id="footer-nav" class="clearfix">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-						<li><a href="residents.html">Residents</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+						<li><a href="residents.php">Residents</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</nav>
 		            <!-- /footer-nav --> <div class="copyright">

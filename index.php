@@ -62,7 +62,7 @@
 <header id="header">
     <div class="container">
     	<!-- logo -->
-    	<a href="index.html" id="logo">
+    	<a href="index.php" id="logo">
     	    <img src="img/logo.png" alt="Logo">
     	</a>
     	<!-- /logo -->
@@ -70,32 +70,32 @@
 	<nav id="main-nav">
 		<ul>
 			<li class="current">
-				<a href="index.html">Home</a>
+				<a href="index.php">Home</a>
 			</li>			<li>
-				<a href="about.html">About</a>
+				<a href="about.php">About</a>
                 <ul>
                 <li> 
-                	<a href="about.html">About Maseeh</a>
+                	<a href="about.php">About Maseeh</a>
                 </li>
                 <li>
-                   <a href="staff.html">Staff</a>
+                   <a href="staff.php">Staff</a>
                 </li>
                 <li>
-                	<a href="prospective.html">Prospective Students</a>
+                	<a href="prospective.php">Prospective Students</a>
                 </li>
               </ul>
 			</li>
 			<li>
-				<a href="events.html">Events</a>
+				<a href="events.php">Events</a>
 			</li>
 			<li>
-				<a href="gallery.html">Gallery</a>
+				<a href="gallery.php">Gallery</a>
 			</li>
-<li> <a href="residents.html">Resident Portal</a>
+<li> <a href="residents.php">Resident Portal</a>
 </li>
             
 			<li>
-				<a href="contact.html">Contact</a>
+				<a href="contact.php">Contact</a>
 			</li>
 		</ul>
 	</nav>
@@ -133,7 +133,7 @@
 				<div class="caption lft very_big_white" data-x="0" data-y="110" data-speed="400" data-start="800" data-easing="easeOutExpo"><center>Meet the<br/> Housemasters</center></div>
 				<div class="caption lfb big_orange" data-x="0" data-y="295" data-speed="400" data-start="2000" data-easing="easeOutExpo"><span style="font-weight:normal;">Jack and Suzanne</strong></div>
                 <div class="caption lfb big_orange" data-x="0" data-y="350" data-speed="400" data-start="3200" data-easing="easeOutExpo"><span style="font-weight:normal;">(and Mickey!)</strong></div>
-				<div class="caption lfb" data-x="0" data-y="450" data-speed="400" data-start="1500" data-easing="easeOutExpo"><a href="staff.html" class="btn large">The Houseteam</a></div>
+				<div class="caption lfb" data-x="0" data-y="450" data-speed="400" data-start="1500" data-easing="easeOutExpo"><a href="staff.php" class="btn large">The Houseteam</a></div>
 			</li>
 			
 		</ul>		
@@ -150,7 +150,7 @@
 			<p>One of the oldest buildings in Cambridge, Maseeh Hall is one of the most historic dormitories at MIT while at the same time being the newest dorm on campus.</p>
 			<p>
 				Located in the center of campus and having the largest dining hall on campus (and the only one open for lunch!), it's no surprise that Maseeh is the busiest and most popular dorm on Campus.
-				<a href="about.html" class="text-button">More About Us</a>
+				<a href="about.php" class="text-button">More About Us</a>
 			</p>
 		</article>
 		<!-- /box -->
@@ -195,7 +195,7 @@
 		<ul class="none events-list">
 			<!-- event -->
 			<li>
-				<a href="event.html">
+				<a href="event.php">
 					<span class="date">08/24-8/29</span>
 					<span class="title">Help Moving In <span class="details">Lobby</span></span>
 					<span class="plus-button"></span>
@@ -204,7 +204,7 @@
 			<!-- /event -->
 			<!-- event -->
 			<li>
-				<a href="event.html">
+				<a href="event.php">
 					<span class="date">08/24-7pm</span>
 					<span class="title">Mafia! <span class="details">Courtyard</span></span>
 					<span class="plus-button"></span>
@@ -213,7 +213,7 @@
 			<!-- /event -->
 			<!-- event -->
 			<li>
-				<a href="event.html">
+				<a href="event.php">
 					<span class="date">08/25-8PM</span>
 					<span class="title">S'mores <span class="details">Courtyard</span></span>
 					<span class="plus-button"></span>
@@ -222,7 +222,7 @@
 			<!-- /event -->
 			<!-- event -->
 			<li>
-				<a href="event.html">
+				<a href="event.php">
 					<span class="date">08/25-8PM</span>
 					<span class="title">Board Games <span class="details">Senior Lecture Room</span></span>
 					<span class="plus-button"></span>
@@ -231,7 +231,7 @@
 			<!-- /event -->
 			<!-- event -->
 			<li>
-				<a href="event.html">
+				<a href="event.php">
 					<span class="date">08/25-8PM</span>
 					<span class="title">Disney Movie Night <span class="details">Media Room</span></span>
 					<span class="plus-button"></span>
@@ -274,10 +274,10 @@
 			<!-- footer-nav -->
 				<nav id="footer-nav" class="clearfix">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-						<li><a href="residents.html">Residents</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+						<li><a href="residents.php">Residents</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>
 				</nav>
 		            <!-- /footer-nav --> <div class="copyright">
