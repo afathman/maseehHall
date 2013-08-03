@@ -192,7 +192,7 @@
 	<!-- right column -->
 	<div class="col-1-2 last">
 		<!-- events list -->
-		<ul class="none events-list">
+		<ul class="none events-list-index">
 			<!-- event -->
 			<li>
 				<a href="event.php">
