@@ -118,32 +118,32 @@
 				<div class="caption lfr medium_text" data-x="700" data-y="350" data-speed="400" data-start="1800" data-easing="easeOutExpo"><a href="#GRT" style="color:white;">+ Graduate Resident Tutors</a></div>
                 <!-- Picture throw -->
                 	<!--Housemasters-->
-                    	<div class="caption lfl" data-x="0" data-y="100" data-speed="2000" data-start="2000" data-easing="easeOutExpo"><a href="#housemasters"><img src="img/people/throw/Jack.png" style="width:120px; height:120px;"/></a></div>
-                        <div class="caption lfl" data-x="100" data-y="120" data-speed="2000" data-start="2000" data-easing="easeOutExpo"><a href="#housemasters"><img src="img/people/throw/Suzanne.png" style="width:120px; height:120px;"/></a></div>
+                    	<div class="caption lfl" data-x="0" data-y="100" data-speed="2000" data-start="2000" data-easing="easeOutExpo"><a href="#jack"><img src="img/people/throw/Jack.png" style="width:120px; height:120px;"/></a></div>
+                        <div class="caption lfl" data-x="100" data-y="120" data-speed="2000" data-start="2000" data-easing="easeOutExpo"><a href="#suzanne"><img src="img/people/throw/Suzanne.png" style="width:120px; height:120px;"/></a></div>
                     <!--/Housemasters-->
                     <!--AssistantHousemasters-->
-                     	<div class="caption lfl" data-x="0" data-y="370" data-speed="2000" data-start="2000" data-easing="easeOutExpo"><a href="#housemasters"><img src="img/people/throw/Cullen.png" style="width:120px; height:120px;"/></a></div>
-                        <div class="caption lfb" data-x="120" data-y="360" data-speed="2000" data-start="2100" data-easing="easeOutExpo"><a href="#housemasters"><img src="img/people/throw/Donielle.png" style="width:120px; height:120px;"/></a></div>
+                     	<div class="caption lfl" data-x="0" data-y="370" data-speed="2000" data-start="2000" data-easing="easeOutExpo"><a href="#cullen"><img src="img/people/throw/Cullen.png" style="width:120px; height:120px;"/></a></div>
+                        <div class="caption lfb" data-x="120" data-y="360" data-speed="2000" data-start="2100" data-easing="easeOutExpo"><a href="#donielle"><img src="img/people/throw/Donielle.png" style="width:120px; height:120px;"/></a></div>
                     <!--/AssistantHousemasters-->
                     <!--International-->
-                     	<div class="caption lft" data-x="300" data-y="120" data-speed="2000" data-start="2200" data-easing="easeOutExpo"><a href="#assistant"><img src="img/people/throw/Sebastian.png" style="width:120px; height:120px;"/></a></div>
-                        <div class="caption lfb" data-x="450" data-y="120" data-speed="2000" data-start="2300" data-easing="easeOutExpo"><a href="#assistant"><img src="img/people/throw/Mark.png" style="width:120px; height:120px;"/></a></div>
+                     	<div class="caption lft" data-x="300" data-y="120" data-speed="2000" data-start="2200" data-easing="easeOutExpo"><a href="#sebastian"><img src="img/people/throw/Sebastian.png" style="width:120px; height:120px;"/></a></div>
+                        <div class="caption lfb" data-x="450" data-y="120" data-speed="2000" data-start="2300" data-easing="easeOutExpo"><a href="#mark"><img src="img/people/throw/Mark.png" style="width:120px; height:120px;"/></a></div>
                     <!--/International-->
                     <!--RLAD-->
-                     	<div class="caption lfb" data-x="375" data-y="370" data-speed="2000" data-start="2400" data-easing="easeOutExpo"><a href="#RLAD"><img src="img/people/throw/Becky.png" style="width:120px; height:120px;"/></a></div>
+                     	<div class="caption lfb" data-x="375" data-y="370" data-speed="2000" data-start="2400" data-easing="easeOutExpo"><a href="#becky"><img src="img/people/throw/Becky.png" style="width:120px; height:120px;"/></a></div>
                     <!--/RLAD-->
                     <!--GRT-->
-                     	<div class="caption lfl" data-x="650" data-y="390" data-speed="2000" data-start="2500" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Juan_Katie.png" style="width:60px; height:60px;"/></a></div>
-                        <div class="caption lfr" data-x="740" data-y="410" data-speed="2000" data-start="2550" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Jason.png" style="width:60px; height:60px;"/></a></div>
-                         	<div class="caption lft" data-x="790" data-y="480" data-speed="2000" data-start="2600" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Veronika.png" style="width:60px; height:60px;"/></a></div>
-                        <div class="caption lfb" data-x="830" data-y="380" data-speed="2000" data-start="2650" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Christina.png" style="width:60px; height:60px;"/></a></div>
-                         	<div class="caption lfl" data-x="910" data-y="430" data-speed="2000" data-start="2700" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Laura.png" style="width:60px; height:60px;"/></a></div>
-                        <div class="caption lfr" data-x="660" data-y="260" data-speed="2000" data-start="2750" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Sarah.png" style="width:60px; height:60px;"/></a></div>
-                         	<div class="caption lft" data-x="700" data-y="190" data-speed="2000" data-start="2800" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Chris.png" style="width:60px; height:60px;"/></a></div>
-                        <div class="caption lfb" data-x="780" data-y="250" data-speed="2000" data-start="2850" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Mitali.png" style="width:60px; height:60px;"/></a></div>
-                         	<div class="caption lfl" data-x="850" data-y="225" data-speed="2000" data-start="2900" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Jay.png" style="width:60px; height:60px;"/></a></div>
-                        <div class="caption lfr" data-x="785" data-y="155" data-speed="2000" data-start="2950" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Jones.png" style="width:60px; height:60px;"/></a></div>
-                         	<div class="caption lft" data-x="920" data-y="275" data-speed="2000" data-start="3000" data-easing="easeOutExpo"><a href="#GRT"><img src="img/people/throw/Ellan.png" style="width:60px; height:60px;"/></a></div>
+                     	<div class="caption lfl" data-x="650" data-y="390" data-speed="2000" data-start="2500" data-easing="easeOutExpo"><a href="#juan"><img src="img/people/throw/Juan_Katie.png" style="width:60px; height:60px;"/></a></div>
+                        <div class="caption lfr" data-x="740" data-y="410" data-speed="2000" data-start="2550" data-easing="easeOutExpo"><a href="#jason"><img src="img/people/throw/Jason.png" style="width:60px; height:60px;"/></a></div>
+                         	<div class="caption lft" data-x="790" data-y="480" data-speed="2000" data-start="2600" data-easing="easeOutExpo"><a href="#veronika"><img src="img/people/throw/Veronika.png" style="width:60px; height:60px;"/></a></div>
+                        <div class="caption lfb" data-x="830" data-y="380" data-speed="2000" data-start="2650" data-easing="easeOutExpo"><a href="#christina"><img src="img/people/throw/Christina.png" style="width:60px; height:60px;"/></a></div>
+                         	<div class="caption lfl" data-x="910" data-y="430" data-speed="2000" data-start="2700" data-easing="easeOutExpo"><a href="#laura"><img src="img/people/throw/Laura.png" style="width:60px; height:60px;"/></a></div>
+                        <div class="caption lfr" data-x="660" data-y="260" data-speed="2000" data-start="2750" data-easing="easeOutExpo"><a href="#sarah"><img src="img/people/throw/Sarah.png" style="width:60px; height:60px;"/></a></div>
+                         	<div class="caption lft" data-x="700" data-y="190" data-speed="2000" data-start="2800" data-easing="easeOutExpo"><a href="#chris"><img src="img/people/throw/Chris.png" style="width:60px; height:60px;"/></a></div>
+                        <div class="caption lfb" data-x="780" data-y="250" data-speed="2000" data-start="2850" data-easing="easeOutExpo"><a href="#mitali"><img src="img/people/throw/Mitali.png" style="width:60px; height:60px;"/></a></div>
+                         	<div class="caption lfl" data-x="850" data-y="225" data-speed="2000" data-start="2900" data-easing="easeOutExpo"><a href="#jay"><img src="img/people/throw/Jay.png" style="width:60px; height:60px;"/></a></div>
+                        <div class="caption lfr" data-x="785" data-y="155" data-speed="2000" data-start="2950" data-easing="easeOutExpo"><a href="#jones"><img src="img/people/throw/Jones.png" style="width:60px; height:60px;"/></a></div>
+                         	<div class="caption lft" data-x="920" data-y="275" data-speed="2000" data-start="3000" data-easing="easeOutExpo"><a href="#ellan"><img src="img/people/throw/Ellan.png" style="width:60px; height:60px;"/></a></div>
                     <!--/GRT-->
 			</li>
         </ul>
@@ -159,11 +159,11 @@
 			<h2>The <span class="color"><a id="housemasters">Housemasters</a></span></h2>
 			<h4>Room: 6065</h4>
             
-            <img src="img/people/Jack.png" align="left">
+            <a id="jack"></a><img src="img/people/Jack.png" align="left">
 		  <h3><span class="color">Jack</span> Caroll</h3>
 <p>Jack grew up in suburban New Jersey (quiet), went to military high school in Manhattan (exciting city!), and to college in northern Vermont (beautiful, cold winters) and in Rome, Italy (fantastic!).He received a Masters from the University of Chicago in Social Sciences and a PhD from Cornell University in Experimental Psychology. His thesis research was on how comprehension of non-literal communications (e.g., sarcasm, irony) develops from young children through adults – the communications that Sheldon (Big Bang Theory) seems to find so unintuitive. After a stint on the psychology faculty at Northeastern University, he worked for several research companies providing market research and user-centered design services to a wide range of clients. He founded and led a research company that helped major banks and investment companies develop innovative, user-centered online, voice, and kiosk-based interfaces. His interest in helping to establish Maseeh Hall emerges from an unforgettable experience as an undergraduate in Rome, where he learned that an educational community committed to enabling active and varied engagement with a diverse world can create a transformative life experience. He’s happy to help with brainstorming, planning, and launching any new activity for Maseeh, exploring international education/intern opportunities, starting a discussion club on lots of topics, talking sports (soccer and football in particular) over dinner, cheering on Maseeh IM teams, etc. </p>
 
-<img src="img/people/Suzanne.png" align="left"><h3><span class="color">Suzanne</span> Flynn</h3>
+<a id="suzanne"></a><img src="img/people/Suzanne.png" align="left"><h3><span class="color">Suzanne</span> Flynn</h3>
 
 <p>Suzanne received her MS from the University of Puerto Rico and MA and PhD from Cornell University. Since 1981 Dr. Flynn has been a Professor of Linguistics and Language Acquisition at MIT. Her research focuses on the acquisition of various aspects of syntax by both children and adults in bilingual, second and third language acquisition contexts. This research is linked to current cognitive and linguistic theories. More recently, her work has focused on the neural representation of the multilingual brain. She has also begun focusing on the nature of language in individuals with early onset of Alzheimer's disease. She has published extensively in journals and has authored or coedited several books. She is also the cofounding editor of Syntax: A Journal of Theoretical, Experimental and Interdisciplinary Research. She is or has been a member of several Boards of Directors; these include Belmont Day School, Modern Languages and Literature (CMU), Department of Anthropology (UMass) among others. She also has a clinical certification in Speech and Language Pathology.  
 </p>
@@ -179,11 +179,11 @@
 		<article class="box col-3-3">
 			<h2>The <span class="color"><a id="assistant">Assistant Housemasters</a></span></h2>
             <h4>Room: 3006</h4>
-			<img src="img/people/Cullen.png" align="left"><h3><span class="color">Cullen</span> Buie</h3> 
+			<a id="cullen"></a><img src="img/people/Cullen.png" align="left"><h3><span class="color">Cullen</span> Buie</h3> 
 
 <p>Cullen is the Mitsui Career Development Chair and Assistant Professor of Mechanical Engineering at MIT. Cullen was born in St. Louis, MO and grew up in Shaker Heights, Ohio. As a student at Shaker Heights High School he was involved in sports (football and basketball) and several organizations to improve race relations within the community. He then attended The Ohio State University where he received his B.S. in Mechanical Engineering (2003). After OSU, Cullen attended Stanford University as a National Science Foundation Graduate Research Fellow and obtained his M.S. (2005) and Ph.D. (2009) in Mechanical Engineering. Cullen's Ph.D. research involved the study of microfluidic pumps to manage liquid water in proton exchange membrane fuel cells. He and his wife, Donielle, met at Stanford in 2004 while she was completing her Master's degree. Prior to joining MIT Cullen spent a year at UC Berkeley working with Professor Liwei Lin and Professor John Coates as a UC President’s Postdoctoral Fellow. At MIT his laboratory explores fundamentals of electrokinetic phenomena for application in materials science and microbiology. His research is applicable to a diverse array of problems, from antibiofouling surfaces and biofuels to energy storage and bacterial infections. Cullen is the recipient of numerous awards for his research and service including the National Science Foundation CAREER Award (2012). In his spare time Cullen enjoys changing his son Jeremiah's diapers and watching college football (particularly, THE Ohio State University). He also enjoys stupid movies (e.g. Talladega Nights) and eating meat...lots and lots of meat.</p>
 
-<img src="img/people/Donielle.png" align="left"><h3><span class="color">Donielle</span> Buie</h3>
+<a id="donielle"></a><img src="img/people/Donielle.png" align="left"><h3><span class="color">Donielle</span> Buie</h3>
 
 <p>Donielle earned a BS in Biomechanical Engineering and an MA in Policy, Organization, and Leadership Studies in Education, both from Stanford University. Her passion for innovation, social change, and leadership development led her to create opportunities to truly impact others. Donielle has spent time working in the nonprofit world. She taught entrepreneurship to high school students at Oakland Technical High School and Lionel Wilson College Preparatory Academy, both in Oakland, CA with BUILD.Donielle was certified by the National Foundation for Teaching Entrepreneurship and was recognized as an Apprentice Teacher of the Year in 2006. Donielle has spent the past six years building her business experience in pharmaceutical and healthcare market research with AlphaDetail, Inc where she is currently a Director. Donielle is still passionate about entrepreneurship and is currently developing plans for her own small business. Donielle and Cullen have an adorable son, Jeremiah, who loves living in Maseeh.When she's not spending time with Jeremiah and Cullen, Donielle likes bowling, baking and reading.  </p>
 		</article>
@@ -204,7 +204,7 @@ Maseeh Hall strives to foster and promote a diverse and welcoming community, bui
 International Fellows are graduate students and resources to anyone with interests or concerns regarding international matters. From international students trying to navigate MIT and the US for the first time, to domestic students with international backgrounds, or students seeking international experiences - International Fellows are Maseeh’s in-house resource for all things international. They assist the Housemasters and House team in building and maintaining relationships with internationally- and multiculturally-oriented offices on campus, as well as partner institutions abroad, and serve as coordinators of international programing within Maseeh Hall.
 </p>
 <p>The International Fellows are also resources for the students more generally. As with the GRTs, International Fellows are point persons, sounding boards, and providers of support for whatever challenges and issues Maseeh residents may face during their time at MIT.</p>
-<img src="img/people/Sebastian.png" align="left"><h3><span class="color">Sebastian</span> Schmidt</h3>
+<a id="sebastian"></a><img src="img/people/Sebastian.png" align="left"><h3><span class="color">Sebastian</span> Schmidt</h3>
 <h4>Room: 2081</h4>
 <h4>Email: stt (at) mit.edu</h4>
 
@@ -216,7 +216,7 @@ I’d love to be a resource for all of you who are into text-, image- or cake-ma
  
 
 
-<img src="img/people/Mark.png" align="left"><h3><span class="color">Mark</span> Bell</h3>
+<a id="mark"></a><img src="img/people/Mark.png" align="left"><h3><span class="color">Mark</span> Bell</h3>
 <h4>Rm: 4081</h4>
 <h4>Email: markbell (at) mit.edu</h4>
 
@@ -234,7 +234,7 @@ I’d love to be a resource for all of you who are into text-, image- or cake-ma
 		<article class="box col-3-3">
 			<h2>Residential Life  <span class="color"><a id="RLAD">Area Director</a></span></h2>
 			
-			<img src="img/people/Becky.png" align="left"><h3>Rebecca <span class="color">“Becky”</span> Kjaerbye</h3>
+		<a id="becky"></a>	<img src="img/people/Becky.png" align="left"><h3>Rebecca <span class="color">“Becky”</span> Kjaerbye</h3>
 		  <p>A Residential Life Area Director (AD) is a full"time professional employee of the Residential Life Programs office. As a live"in member of the House Team, the AD provides individual assistance to students through personal advising, counseling and crisis intervention. Although the Area Director program is new to MIT this year, Maseeh Hall’s Area Director, Becky Kjaerbye, has been with Maseeh Hall since August 2011 as a Residential Life Associate. Becky is a great resource and readily approachable. She’s extremely knowledgeable about advising students on dorm projects, roommate situations etc. Her apartment is on the 4th floor – Room 4067. Don’t be shy to stop bye and say hi! Becky also works together with the Maseeh Hall Executive Committee as an advisor and helps coordinate joint efforts between MHEC and the House Team.</p>
           <p>
           Becky is going on her third year at MIT, Becky hails from Long Island, NY and has her graduate degree in Post Secondary Education from Salisbury University. She enjoys watching the latest movies and traveling to the Caribbean. Becky enjoys spending most of her time at MIT with students; whether it is at meetings, late night chats, study breaks or froyo events in her apartment.</p>
@@ -253,7 +253,7 @@ I’d love to be a resource for all of you who are into text-, image- or cake-ma
 <h2><center><span class="color">Ground</span> Floor</center></h2>
 
 
-<img src="img/people/Juan_Katie.png" align="left"><h3><span class="color">Katie</span> Villa</h3>
+<a id="juan"></a><img src="img/people/Juan_Katie.png" align="left"><h3><span class="color">Katie</span> Villa</h3>
 <h4>Room: 0073</h4>
 <h4>Email: kvilla (at) mit.edu</h4>
 
@@ -278,7 +278,7 @@ Apart from science, I'm also passionate about travel, community service and a lo
 <h2><center><span class="color">First</span> Floor</center></h2>
 
 
-<img src="img/people/Veronika.png" align="left"><h3><span class="color">Veronika</span> Stelmakh</h3>
+<a id="veronika"></a><img src="img/people/Veronika.png" align="left"><h3><span class="color">Veronika</span> Stelmakh</h3>
 <h4>Room: 1081</h4>
 <h4>Email: stelmakh (at) MIT.edu</h4>
 
@@ -286,7 +286,7 @@ Apart from science, I'm also passionate about travel, community service and a lo
 
 
 
-<img src="img/people/Jason.png" align="left"><h3><span class="color">Jason</span> Hill</h3>
+<a id="jason"></a><img src="img/people/Jason.png" align="left"><h3><span class="color">Jason</span> Hill</h3>
 <h4>Room: 1081</h4>
 <h4>Email: jnhill (at) mit.edu</h4>
 
@@ -295,7 +295,7 @@ Apart from science, I'm also passionate about travel, community service and a lo
 <h2><center><span class="color">Second</span> Floor</center></h2>
 
 
-<img src="img/people/Christina.png" align="left"><h3><span class="color">Christina</span> R Johnson</h3>
+<a id="christina"></a><img src="img/people/Christina.png" align="left"><h3><span class="color">Christina</span> R Johnson</h3>
 <h4>Room: 2019</h4>
 <h4>Email: christina.johnson (at) sloan.mit.edu</h4>
 
@@ -304,7 +304,7 @@ Apart from science, I'm also passionate about travel, community service and a lo
 <h2><center><span class="color">Third</span> Floor</center></h2>
 
 
-<img src="img/people/Laura.png" align="left"><h3><span class="color">Laura</span> Stoppel</h3>
+<a id="laura"></a><img src="img/people/Laura.png" align="left"><h3><span class="color">Laura</span> Stoppel</h3>
 <h4>Room: 3081</h4>
 <h4>Email: lstoppel (at) mit.edu></h4>
 
@@ -313,7 +313,7 @@ Apart from science, I'm also passionate about travel, community service and a lo
 
 
 
-<img src="img/people/Sarah.png" align="left"><h3><span class="color">Sarah</span> Moshary</h3>
+<a id="sarah"></a><img src="img/people/Sarah.png" align="left"><h3><span class="color">Sarah</span> Moshary</h3>
 <h4>Room: 3019</h4>
 <h4>Email: smoshary (at) mit.edu</h4>
 
@@ -323,7 +323,7 @@ Apart from science, I'm also passionate about travel, community service and a lo
 <h2><center><span class="color">Fourth</span> Floor</center></h2>
 
 
-<img src="img/people/Chris.png" align="left"><h3><span class="color">Christopher</span> J Love</h3>
+<a id="chris"></a><img src="img/people/Chris.png" align="left"><h3><span class="color">Christopher</span> J Love</h3>
 <h4>Room: 4019</h4>
 <h4>Email: cjlove (at) mit.edu</h4>
 
@@ -333,7 +333,7 @@ I speak Italian and organize the language tables and international programs in M
 <h2><center><span class="color">Fifth</span> Floor</center></h2>
 
 
-<img src="img/people/Mitali.png" align="left"><h3><span class="color">Mitali</span> Thakor</h3>
+<a id="mitali"></a><img src="img/people/Mitali.png" align="left"><h3><span class="color">Mitali</span> Thakor</h3>
 <h4>Room: 5081</h4>
 <h4>Email: mitalit (at) mit.edu</h4>
 
@@ -342,7 +342,7 @@ I graduated from Stanford with degrees in Feminist Studies and Anthropology and 
 I'm originally from Maryland, although I love to travel and have lived in various parts of Southeast Asia. I also enjoy dancing, painting, laughter yoga, neon colors, and avocados. I look forward to learning more about the fabulous residents of Maseeh Hall! </p>
 
 
-<img src="img/people/Jay.png" align="left"><h3><span class="color">Jay</span> Wang</h3>
+<a id="jay"></a><img src="img/people/Jay.png" align="left"><h3><span class="color">Jay</span> Wang</h3>
 <h4>Room: 5019</h4>
 <h4>Email: jay_wang (at) mit.edu</h4>
 
@@ -352,7 +352,7 @@ I'm originally from Maryland, although I love to travel and have lived in variou
 <h2><center><span class="color">Sixth</span> Floor</center></h2>
 
 
-<img src="img/people/Jones.png" align="left"><h3><span class="color">Andrew</span> D  Jones</h3>
+<a id="jones"></a><img src="img/people/Jones.png" align="left"><h3><span class="color">Andrew</span> D  Jones</h3>
 <h4>Room: 6081</h4>
 <h4>Email: andrew3 (at) mit.edu</h4>
 
@@ -362,7 +362,7 @@ I'm originally from Maryland, although I love to travel and have lived in variou
 
 
 
-<img src="img/people/Ellan.png" align="left"><h3><span class="color">Ellan</span> F Spero</h3>
+<a id="ellan"></a><img src="img/people/Ellan.png" align="left"><h3><span class="color">Ellan</span> F Spero</h3>
 <h4>Room: 6019</h4>
 <h4>Email: efs8 (at) mit.edu</h4>
 
